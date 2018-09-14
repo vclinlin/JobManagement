@@ -25,6 +25,31 @@ class Index extends Controller
         return $this->fetch('index');
     }
 
+    public function getNumber($id)
+    {
+        $StudentModel = new Student();
+        $TeacherModel = new Teachers();
+        if($StudentModel->get(['number'=>$id]))
+        {
+            echo json_encode($data =[
+                'class_state'=>200,
+                'class_type'=>1
+            ]);
+            return;
+        }
+        if($TeacherModel->get(['number'=>$id]))
+        {
+            echo json_encode($data =[
+                'class_state'=>200,
+                'class_type'=>2
+            ]);
+            return;
+        }
+        echo json_encode([
+            'state'=>400
+        ]);
+        return;
+    }
     public function cateTest()  //账户类型区分
     {
         if(Session::has('cate'))

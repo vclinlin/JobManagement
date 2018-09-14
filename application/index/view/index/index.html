@@ -67,19 +67,16 @@
                 <form id="forms" onsubmit="return false">
                 <div class="form-group">
                     <label for="number">账号:</label>
-                    <input type="text" class="form-control" id="number" placeholder="学号/教师号">
+                    <input type="text" class="form-control" id="number" placeholder="学号/教师号"
+                    oninput="checkLogin(this)">
                 </div>
                 <div class="form-group">
                     <label for="pass">密码:</label>
-                    <input type="password" class="form-control" id="pass" placeholder="密码">
+                    <input type="password" disabled class="form-control" id="pass" placeholder="密码">
                 </div>
                 <div class="form-group">
                     <label for="class_number">用户类型:</label>
-                    <select class="form-control" id="class_number">
-                        <option value="">用户类型</option>
-                        <option value="1">我是学生</option>
-                        <option value="2">我是教师</option>
-                    </select>
+                    <input type="text" readonly  class="form-control" id="class_number" placeholder="未知用户">
                 </div>
                 </form>
             </div>
@@ -103,7 +100,7 @@ function login()
 {
     var number = $("#number").val().trim();
     var pass = $("#pass").val().trim();
-    var class_number = $("#class_number").val().trim();
+    var class_number = $("#class_number")[0].dataset.type;
     /**
      * 数据监测
      */
@@ -147,6 +144,40 @@ function login()
                 });
                 return;
             }
+        }
+    })
+}
+function checkLogin(_this) {
+    console.log(_this.value)
+    $.ajax({
+        url:"{:url('index/index/getNumber')}",
+        type: 'get',
+        dataType: 'json',
+        data:{
+            id:_this.value
+        },
+        success:function (rel) {
+            if(rel.class_state == 200)
+            {
+                if(rel.class_type == 1)
+                {
+                    document.getElementById("class_number").placeholder = '学生用户';
+                }
+                if(rel.class_type == 2)
+                {
+                    document.getElementById("class_number").placeholder = '教师用户';
+                }
+                // 解除禁用
+                $("#pass").removeAttr("disabled");
+                $("#class_number").attr("data-type",rel.class_type);
+                return;
+            }
+            // 移除类型
+            $("#class_number").removeAttr("data-type");
+            document.getElementById("class_number").placeholder = '未知用户';
+            $("#pass").attr("disabled","disabled");
+            return;
+
         }
     })
 }
