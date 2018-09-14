@@ -344,7 +344,7 @@ class User extends Index
         $model = new Student();
         if(!$model->where($Ary)
             ->update(['pass'=>md5(md5($Ary['number']).md5('123456').md5('!@#$%^&*()_+')),
-                      'state'=>0]))
+                      'state'=>1]))
         {
             echo json_encode($data = [
                 "state"=>false,
@@ -642,7 +642,7 @@ class User extends Index
         return $this->fetch('upteachers');
     }
 
-    public function UpTeachers(Request $request)  //更新学生信息
+    public function UpTeachers(Request $request)  //更新教师信息
     {
         $Ary = $request->post();
         $model = new Teachers();
