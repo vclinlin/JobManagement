@@ -18,16 +18,17 @@
 {:widget('widgets/teachers')}
 <div class="line-one container">
     <div class="d-flex flex-wrap">
-        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2">
+        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2" style="margin-top: 15px;">
             <div class="card">
                 <div class="card-body" data-url="/index/teachers/addcourse" onclick="OpenUrl(this)">
                     <img src="__IMG__/cover/add.png" class="w-100" style="height:169px">   <!-- 默认第一个卡片：添加 -->
                 </div>
-                <div class="card-footer text-center">新增课程</div>    <!-- 描述 -->
+                <div class="card-footer text-center">
+                    <marquee behavior="left"  direction="5">新增课程</marquee></div>    <!-- 描述 -->
             </div>
         </div>
         {volist name="data" id="data"}
-        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2" title="{$data.class_name}-{$data.grade}级{$data.sequence}班">
+        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2" style="margin-top: 15px;" title="{$data.class_name}-{$data.grade}级{$data.sequence}班">
             <div class="card"  data-url="/index/teachers/courseDetails?id={$data.Id}&key={$data.course_name}" onclick="OpenUrl(this)">
                 <div class="card-body">
                     <img src="{$data.img_url==''?'__IMG__/cover/DefaultCover.jpg':$data.img_url}" class="w-100" style="height:169px">   <!-- 封面 -->

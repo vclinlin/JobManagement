@@ -13,7 +13,7 @@
 <div class="line-one container">
     <div class="d-flex flex-wrap">
         {volist name="data" id="data"}
-        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2" title="{$data.name}">
+        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2" style="margin-top: 15px;" title="{$data.name}">
             <div class="card" data-url="/index/students/courseDetails?id={$data.Id}&key={$data.name}" onclick="OpenUrl(this)">
                 <div class="card-body">
                     <img src="{$data.img_url==''?'__IMG__/cover/DefaultCover.jpg':$data.img_url}" class="w-100" style="height:169px">   <!-- 封面 -->

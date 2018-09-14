@@ -89,6 +89,13 @@
             </tbody>
         </table>
     </div>
+                {if $datas.state == 1}
+                    <div  style="margin-top:20px;">
+                        <label for="textMsg">教师评语:</label>
+                        <textarea id="textMsg" style="resize: none;color: black"
+                                  rows="4" class="col-12" disabled>还没有评语...</textarea>
+                    </div>
+                {/if}
     {/if}
 </div>
 
