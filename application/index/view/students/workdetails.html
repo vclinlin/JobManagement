@@ -1,0 +1,138 @@
+{extend name="layout"/}
+
+{block name="title"}
+<title>课程详情</title>
+{/block}
+<!-- 资源 -->
+{block name="static"}
+<style>
+
+</style>
+{/block}
+<!-- 内容 -->
+{block name="body"}
+<!-- 导航栏 -->
+{:widget('widgets/students')}
+<div class="container line-one">
+    <div class="row bg-light">
+        <div class="col-sm-12">
+            <h3>标题:{$work.title}</h3>
+            <p>要求:</p>
+            <textarea style="resize:none"  class="col-12" disabled rows="6">{$work.msg}</textarea>
+            <small>截止日期:{$work.end_time|date='Y-m-d:H:i:s',###}</small>
+        </div>
+    </div>
+    <div  style="margin-top:15px;">
+        {if $work.scheme==0}
+            <p>选择文件:</p>
+            {if $work.workState == 1}
+            <small class="text-danger">你于{$work.workUpdateTime|date='Y-m-d:H:i:s',###}已答题</small>
+            <small class="text-danger">再次答题会覆盖上次记录</small>
+            {/if}
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="file0" onchange="filesClick()" aria-describedby="inputGroupFileAddon04">
+                <label class="custom-file-label" id="filesVal" for="file0">选择你的作业文件</label>
+            </div>
+            <div style="margin-top:20px;">
+                <button type="button" class="btn btn-primary" onclick="filesUp()">确定</button>
+                <button type="button" class="btn btn-danger" onclick="javascript:history.back(-1);">返回</button>
+            </div>
+        {/if}
+        {if $work.scheme==1}
+            <p>输入或粘贴你的文本:</p>
+            <textarea style="resize:none"  class="col-12"
+                      rows="6" placeholder="在此处输入或粘贴你的文本"></textarea>
+            <button type="button" class="btn btn-primary">确定</button>
+            <button type="button" class="btn btn-danger" onclick="javascript:history.back(-1);">返回</button>
+        {/if}
+    </div>
+    {if $work.workState == 1}
+    <div  style="margin-top:20px;" class="table-responsive">
+        <table class="table text-center table-bordered">
+            <thead>
+                <tr>
+                    <td>学号</td>
+                    <td>姓名</td>
+                    <td>答题类型</td>
+                    <td>答题时间</td>
+                    <td>答题次数</td>
+                    <td>是否批阅</td>
+                    <td>操作</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{$datas.students_num}</td>
+                    <td>{$datas.students_name}</td>
+                    <td>
+                        {if $datas.type == 0}
+                        文件
+                        {/if}
+                        {if $datas.type == 1}
+                        文本
+                        {/if}
+                    </td>
+                    <td>{$datas.updatetime|date='Y-m-d:H:i:s',###}</td>
+                    <td>{$datas.count_sum}</td>
+                    <td>
+                        {if $datas.state == 0}
+                        未批阅
+                        {/if}
+                        {if $datas.state == 1}
+                        已批阅
+                        {/if}
+                    </td>
+                    <td>查看</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    {/if}
+</div>
+
+<script>
+    $(function () {
+    //    -------
+    })
+    function filesUp() {
+        var files = $("#file0");
+        if(!files.val())
+        {
+            layer.msg("请选择有效文件");
+            return;
+        }
+        var formData = new FormData();
+        formData.append("file", $("#file0")[0].files[0]);
+        $.ajax({
+            url:"{:url('index/Students/UpWorkFiles',['course_id'=>$work.course_id,'work_id'=>$work.Id,'end_time'=>$work.end_time])}",
+            type: 'post',
+            data: formData,
+            //这两个设置项必填
+            cache: false,
+            contentType: false,    //不可缺
+            processData: false,    //不可缺
+            success: function (data) {
+                var res = JSON.parse(data);  //处理字符串
+                if(res.code==200)
+                {
+                    layer.msg(res.msg,{icon:1,time:1000,shade : [0.5 , '#000' , true]},function () {
+                        location.reload();
+                    });
+                    return;
+                }
+                layer.msg(res.msg,{icon:0,time:1000,shade : [0.5 , '#000' , true]});
+                return;
+            }
+        });
+    }
+    function filesClick() {
+        var files = $("#file0");
+        if(!files.val())
+        {
+            document.getElementById('filesVal').innerHTML = '请选择你的作业文件';
+            return;
+        }
+        document.getElementById('filesVal').innerHTML = files.val();
+    }
+</script>
+{/block}

@@ -1,0 +1,77 @@
+{extend name="layout"/}
+
+{block name="title"}
+<title>学生首页</title>
+{/block}
+<!-- 资源 -->
+{block name="static"}
+<style>
+    .Vcard > .card-body
+    {
+        border-radius:25px;
+        cursor: pointer;
+    }
+    .Vcard > .card-body:hover
+    {
+        background:#e2e3e5;
+
+    }
+</style>
+{/block}
+<!-- 内容 -->
+{block name="body"}
+{:widget('widgets/students')}
+<div class="container bg-light">
+    <div class="row" style="padding:20px 0 20px 0;">
+        <div class="col-lg-4" style="border-bottom: #1AA093 solid 1px">
+            <div class="media">
+                <img src="__IMG__/logo.png" class="align-self-center img-fluid img-thumbnail mr-3"
+                     style="width:100px">
+                <div class="media-body">
+                    {volist name="Details" id="Details"}
+                    <h4>您好,{$Details.name} </h4>
+                    <dd>学号:{$Details.number}</dd>
+                    <dd>班级:{$Details.ClassName}</dd>
+                    {/volist}
+                </div>
+            </div>
+            <div class="container" style="margin-top: 10px;">
+                <dd class="text-secondary"><i class="fa fa-envelope-o" style="font-size:15px"></i>-作业消息0条</dd>
+                <dd class="text-secondary"><i class="fa fa fa-pencil-square-o" style="font-size:15px"></i>-未交作业0条</dd>
+            </div>
+        </div>
+        <div class="col-lg-8" style="border-bottom: #1AA093 solid 1px">
+            <div class="row text-center Vcard">
+                <div class="col-4 card-body">
+                    <i class="fa fa-vcard-o" style="font-size:30px;color:red"></i>
+                    <p>个人中心</p>
+                </div>
+                <div class="col-4 card-body" data-url="/index/students/course" onclick="OpenUrl(this)">
+                    <i class="fa fa-calendar-check-o" style="font-size:30px;color:red"></i>
+                    <p>我的课程</p>
+                </div>
+                <div class="col-4 card-body">
+                    <i class="fa fa-clock-o" style="font-size:30px;color:red"></i>
+                    <p>待交作业</p>
+                </div>
+                <div class="col-4 card-body">
+                    <i class="fa fa-envelope-o" style="font-size:30px;color:red"></i>
+                    <p>已批作业</p>
+                </div>
+                <div class="col-4 card-body">
+                    <i class="fa fa-folder-open-o" style="font-size:30px;color:red"></i>
+                    <p>课程资料</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="margin: 0 0 10px 0">
+        <div class="col-md-4">1</div>
+        <div class="col-md-4">2</div>
+        <div class="col-md-4">3</div>
+    </div>
+    <div class="row">
+        <div class="col text-center bg-info text-white">尾部</div>
+    </div>
+</div>
+{/block}

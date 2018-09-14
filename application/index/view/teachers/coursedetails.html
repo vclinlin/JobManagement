@@ -1,0 +1,53 @@
+{extend name="layout"/}
+
+{block name="title"}
+<title>课程详情</title>
+{/block}
+<!-- 资源 -->
+{block name="static"}
+<style>
+
+</style>
+{/block}
+<!-- 内容 -->
+{block name="body"}
+<!-- 导航栏 -->
+{:widget('widgets/teachers')}
+<div class="line-one container">
+    <div class="row p-2 m-2  bg-light border">
+        <div class="col-sm-9 d-flex justify-content-center flex-column">
+                <div class="h4">[<span class="text-danger">{$course.name}</span>]作业列表</div>
+        </div>
+        <div class="col-sm-3 d-flex justify-content-center flex-column">
+            <input type="button" class="btn btn-block btn-success"
+                   data-url="/index/teachers/addworkview?id={$course.course_id}" value="新增作业" onclick="OpenUrl(this)"/>
+            <input type="button" class="btn btn-block btn-primary"
+                   data-url="/index/teachers/CourseImgView?id={$course.course_id}" value="修改封面" onclick="OpenUrl(this)"/>
+        </div>
+    </div>
+    {volist name="data" id="data" key="key"}
+    <div class="row p-2 m-2 bg-light border">
+    <div class="col-sm-9 d-flex justify-content-start">
+        <div class="text-dark">
+            <div class="h4">{$data.title}</div>
+            <div>截至时间：{$data.end_time|date='Y-m-d',###}</div>
+            <div>
+                <!-- 作业要求简介 -->
+                要求：{$data.msg_cut}<a href=".demo{$key}" data-toggle="collapse">......更多</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 d-flex justify-content-center flex-column">
+        <input type="button" class="btn btn-block btn-success"  value="查看"
+               data-url="{:url('index/Teachers/WorkDetails',['id'=>$data.Id,'course_id'=>$course.course_id])}" onclick="OpenUrl(this)" />
+    </div>
+</div>
+    <div  class="collapse p-2 m-2 bg-dark text-white demo{$key}" data-parent=".line-one">  <!-- 作业要求详细 -->
+        <textarea style="resize:none"  class="col-12 bg-dark text-white border-0" disabled rows="6">{$data.msg}</textarea>
+    </div>
+    {/volist}
+    <ul class="text-dark container d-flex justify-content-center fixed-bottom">
+        {$page}
+    </ul>
+</div>
+{/block}

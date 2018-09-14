@@ -1,0 +1,42 @@
+{extend name="layout"/}
+
+{block name="title"}
+<title>修改封面</title>
+{/block}
+<!-- 资源 -->
+{block name="static"}
+<style>
+.card-top
+{
+    margin-top: 10px;
+}
+</style>
+<script src="__JS__/teachers/courseImg.js"></script>
+{/block}
+<!-- 内容 -->
+{block name="body"}
+<!-- 导航栏 -->
+{:widget('widgets/teachers')}
+<div class="line-one container">
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="col-lg-2 card-top col-sm-3 col-6 p-sm-2">
+            <div class="card">
+                <div class="card-body">
+                    <img src="{$data==''?'__IMG__/cover/DefaultCover.jpg':$data}"
+                         id="imgA" class="w-100" style="height:169px">   <!-- 默认-->
+                </div>
+                <div class="card-footer text-center" data-Id="{$id}" id="ImgId">封面预览</div>    <!-- 描述 -->
+            </div>
+        </div>
+    </div>
+    <div class="m-2 p-2 text-danger text-center">为保证封面效果请使用宽高比为6:8的图片</div>
+    <div class="form-group">
+        <input  type="file" accept="image/*" name="file0" id="file0" multiple="multiple"
+                class="form-control-file" >
+    </div>
+    <div class="input-group">
+        <button class="btn-sm btn" data-id="{$id}" onclick="FileUp(this)" style="margin-right: 10px;">确定</button>
+        <button class="btn-sm btn btn-danger" onclick="javascript:history.back(-1);">返回</button>
+    </div>
+</div>
+{/block}

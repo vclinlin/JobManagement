@@ -1,0 +1,46 @@
+{extend name="layout"/}
+
+{block name="title"}
+<title>新增课程</title>
+{/block}
+<!-- 资源 -->
+{block name="static"}
+<script src="__JS__/index/teachers/addcourse.js"></script>
+<style>
+
+</style>
+{/block}
+<!-- 内容 -->
+{block name="body"}
+<!-- 导航栏 -->
+{:widget('widgets/teachers')}
+<div class="container line-one">
+    <div class="row bg-light">
+        <div class="col-sm-6 p-2 m-sm-2">
+            <div class="form-group">
+                <label for="names">课程名</label>
+                <input type="text" class="form-control" id="names" placeholder="输入课程名">
+            </div>
+            <div class="form-group">
+                <label for="sel1">选择专业</label>
+                <select class="form-control" id="sel1" onchange="onloadClass()">
+                    {volist name="data" id="data"}
+                    <option value="{$data.Id}">{$data.name}</option>
+                    {/volist}
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Vc_class">选择班级</label>
+                <select class="form-control" id="Vc_class">
+                    <option>加载失败</option>
+                </select>
+            </div>
+            <input type="button" onclick="SubCourse()" value="确定" class="btn btn-success"/>
+            <input type="button" onclick="javascript:history.back(-1);"
+                   class="btn btn-danger" style="margin-left: 10px;" value="返回">
+            <div class="text-danger p-2 m-2">*非本系部课程，只能联系管理员核实后添加</div>
+            <div class="text-danger p-2 m-2">*课程添加后,非管理员不得删除</div>
+        </div>
+    </div>
+</div>
+{/block}
