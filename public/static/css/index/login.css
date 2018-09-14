@@ -1,0 +1,20 @@
+/**
+大屏与超大屏
+ */
+.text-fixed
+{
+    position: fixed;
+    z-index:999;
+    height: 80px;
+    width: 400px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    top: 150px;
+    left: 50%;
+    margin: 0 0 0 -200px;
+}
+@media screen and (max-width:1024px)
+{
+
+}
