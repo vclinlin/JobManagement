@@ -25,7 +25,7 @@ class Index extends Controller
         return $this->fetch('index');
     }
 
-    public function getNumber($id)
+    public function getNumber($id) //账户类型判断
     {
         $StudentModel = new Student();
         $TeacherModel = new Teachers();
