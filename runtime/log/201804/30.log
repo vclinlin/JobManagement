@@ -1,0 +1,3463 @@
+---------------------------------------------------------------
+[ 2018-04-30T00:20:57+08:00 ] 127.0.0.1 GET /wedit
+[ info ] www.vclin01.com/wedit [运行时间：0.027910s][吞吐率：35.83req/s] [内存消耗：1,759.30kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/wedit\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:20:57+08:00 ] 127.0.0.1 GET /wedit
+[ info ] www.vclin01.com/wedit [运行时间：0.020888s][吞吐率：47.87req/s] [内存消耗：1,759.07kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/wedit\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:21:09+08:00 ] 127.0.0.1 POST /wedit/index/rec
+[ info ] www.vclin01.com/wedit/index/rec [运行时间：0.062141s][吞吐率：16.09req/s] [内存消耗：2,582.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => 'index',
+    2 => 'rec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '9732',
+  'accept' => '*/*',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/wedit',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'cont' => '<p>欢迎使用 wangEditor 富文本编辑器</p><p><img src="data:image/jpeg;base64,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" style="max-width:100%;"></p>',
+)
+[ info ] [ RUN ] app\wedit\controller\Index->rec[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001332s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `layui` [ RunTime:0.028338s ]
+[ sql ] [ SQL ] INSERT INTO `layui` (`cont`) VALUES ('<p>欢迎使用 wangEditor 富文本编辑器</p><p><img src=\"data:image/jpeg;base64,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\" style=\"max-width:100%;\"></p>') [ RunTime:0.003384s ]
+---------------------------------------------------------------
+[ 2018-04-30T00:22:55+08:00 ] 127.0.0.1 GET /weditput
+[ info ] www.vclin01.com/weditput [运行时间：0.020963s][吞吐率：47.70req/s] [内存消耗：1,433.57kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weditput',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:23:14+08:00 ] 127.0.0.1 GET /weditput
+[ info ] www.vclin01.com/weditput [运行时间：0.019557s][吞吐率：51.13req/s] [内存消耗：1,434.07kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weditput',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:23:26+08:00 ] 127.0.0.1 GET /wedit/index/weditput
+[ info ] www.vclin01.com/wedit/index/weditput [运行时间：0.060287s][吞吐率：16.59req/s] [内存消耗：2,544.78kb] [文件加载：49]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => 'index',
+    2 => 'weditput',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->weditput[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011224s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `layui` [ RunTime:0.021143s ]
+[ sql ] [ SQL ] SELECT * FROM `layui` [ RunTime:0.000547s ]
+---------------------------------------------------------------
+[ 2018-04-30T00:23:32+08:00 ] 127.0.0.1 GET /wedit/index/weditput
+[ info ] www.vclin01.com/wedit/index/weditput [运行时间：0.079054s][吞吐率：12.65req/s] [内存消耗：2,545.03kb] [文件加载：49]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => 'index',
+    2 => 'weditput',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->weditput[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011772s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `layui` [ RunTime:0.024960s ]
+[ sql ] [ SQL ] SELECT * FROM `layui` [ RunTime:0.000527s ]
+---------------------------------------------------------------
+[ 2018-04-30T00:24:02+08:00 ] 127.0.0.1 GET /wedit
+[ info ] www.vclin01.com/wedit [运行时间：0.026687s][吞吐率：37.47req/s] [内存消耗：1,760.16kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/wedit\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:24:09+08:00 ] 127.0.0.1 GET /wedit/index/weditput
+[ info ] www.vclin01.com/wedit/index/weditput [运行时间：0.071005s][吞吐率：14.08req/s] [内存消耗：2,545.03kb] [文件加载：49]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => 'index',
+    2 => 'weditput',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->weditput[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011700s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `layui` [ RunTime:0.023923s ]
+[ sql ] [ SQL ] SELECT * FROM `layui` [ RunTime:0.000612s ]
+---------------------------------------------------------------
+[ 2018-04-30T00:24:20+08:00 ] 127.0.0.1 GET /wedit/
+[ info ] www.vclin01.com/wedit/ [运行时间：0.019570s][吞吐率：51.10req/s] [内存消耗：1,760.20kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/wedit\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:24:28+08:00 ] 127.0.0.1 POST /wedit/index/rec
+[ info ] www.vclin01.com/wedit/index/rec [运行时间：0.063166s][吞吐率：15.83req/s] [内存消耗：2,583.39kb] [文件加载：49]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => 'index',
+    2 => 'rec',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '9613',
+  'accept' => '*/*',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/wedit/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'cont' => '<p><img src="data:image/jpeg;base64,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" style="max-width:100%;"></p>',
+)
+[ info ] [ RUN ] app\wedit\controller\Index->rec[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001584s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `layui` [ RunTime:0.024935s ]
+[ sql ] [ SQL ] INSERT INTO `layui` (`cont`) VALUES ('<p><img src=\"data:image/jpeg;base64,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\" style=\"max-width:100%;\"></p>') [ RunTime:0.003582s ]
+---------------------------------------------------------------
+[ 2018-04-30T00:24:35+08:00 ] 127.0.0.1 GET /wedit/index/weditput
+[ info ] www.vclin01.com/wedit/index/weditput [运行时间：0.055367s][吞吐率：18.06req/s] [内存消耗：2,561.45kb] [文件加载：49]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wedit',
+    1 => 'index',
+    2 => 'weditput',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\wedit\controller\Index->weditput[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\wedit\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001016s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `layui` [ RunTime:0.018805s ]
+[ sql ] [ SQL ] SELECT * FROM `layui` [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2018-04-30T00:27:13+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018150s][吞吐率：55.10req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:37:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029737s][吞吐率：33.63req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:47:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025469s][吞吐率：39.26req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T00:57:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024551s][吞吐率：40.73req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T01:07:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021949s][吞吐率：45.56req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T01:17:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020944s][吞吐率：47.75req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T01:27:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026426s][吞吐率：37.84req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T01:37:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.035040s][吞吐率：28.54req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T01:47:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028928s][吞吐率：34.57req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T01:57:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018598s][吞吐率：53.77req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T02:07:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016738s][吞吐率：59.74req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T02:17:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018387s][吞吐率：54.39req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T02:27:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017311s][吞吐率：57.77req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T02:37:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017177s][吞吐率：58.22req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T02:47:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017086s][吞吐率：58.53req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T02:57:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018402s][吞吐率：54.34req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T03:07:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018617s][吞吐率：53.71req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T03:17:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017420s][吞吐率：57.41req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T03:27:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017008s][吞吐率：58.80req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T03:37:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016527s][吞吐率：60.51req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T03:47:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018446s][吞吐率：54.21req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T03:57:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017046s][吞吐率：58.66req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T04:07:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016645s][吞吐率：60.08req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T04:17:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018628s][吞吐率：53.68req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T04:27:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016722s][吞吐率：59.80req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T04:37:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019321s][吞吐率：51.76req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T04:47:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017837s][吞吐率：56.06req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T04:57:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019120s][吞吐率：52.30req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T05:07:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018732s][吞吐率：53.38req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T05:17:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016828s][吞吐率：59.42req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T05:27:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016874s][吞吐率：59.26req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T05:37:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017985s][吞吐率：55.60req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T05:47:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017812s][吞吐率：56.14req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T05:57:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016659s][吞吐率：60.03req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T06:07:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017791s][吞吐率：56.21req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T06:17:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017436s][吞吐率：57.35req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T06:27:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016798s][吞吐率：59.53req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T06:37:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018076s][吞吐率：55.32req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T06:47:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017391s][吞吐率：57.50req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T06:57:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017766s][吞吐率：56.29req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T07:07:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017254s][吞吐率：57.96req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T07:17:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017364s][吞吐率：57.59req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T07:27:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017733s][吞吐率：56.39req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T07:37:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017063s][吞吐率：58.61req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T07:47:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022026s][吞吐率：45.40req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T07:57:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016888s][吞吐率：59.21req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T08:07:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017044s][吞吐率：58.67req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T08:17:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019905s][吞吐率：50.24req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T08:27:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017571s][吞吐率：56.91req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T08:37:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017611s][吞吐率：56.78req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T08:47:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017142s][吞吐率：58.34req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T08:57:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017899s][吞吐率：55.87req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T09:07:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017558s][吞吐率：56.95req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T09:17:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017110s][吞吐率：58.44req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T09:27:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017500s][吞吐率：57.14req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T09:37:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021185s][吞吐率：47.20req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T09:47:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017718s][吞吐率：56.44req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T09:57:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016956s][吞吐率：58.98req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T10:07:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017808s][吞吐率：56.15req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T10:17:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016576s][吞吐率：60.33req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T10:27:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016603s][吞吐率：60.23req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T10:37:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016740s][吞吐率：59.74req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T10:47:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017199s][吞吐率：58.14req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T10:57:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017930s][吞吐率：55.77req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:07:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017537s][吞吐率：57.02req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:17:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019502s][吞吐率：51.28req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:27:15+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016596s][吞吐率：60.26req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:31:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024686s][吞吐率：40.51req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:33:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017048s][吞吐率：58.66req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:43:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026581s][吞吐率：37.62req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T11:53:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.034468s][吞吐率：29.01req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T12:03:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027881s][吞吐率：35.87req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T12:13:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018340s][吞吐率：54.53req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T12:23:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018180s][吞吐率：55.01req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T12:33:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029047s][吞吐率：34.43req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T12:43:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023459s][吞吐率：42.63req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T12:53:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026014s][吞吐率：38.44req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:03:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027527s][吞吐率：36.33req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:13:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030725s][吞吐率：32.55req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:23:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020051s][吞吐率：49.87req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:33:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021670s][吞吐率：46.15req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:43:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.034090s][吞吐率：29.33req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T13:53:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026099s][吞吐率：38.32req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:03:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020453s][吞吐率：48.89req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:13:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023142s][吞吐率：43.21req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:23:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.621332s][吞吐率：1.61req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:33:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024650s][吞吐率：40.57req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:43:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025922s][吞吐率：38.58req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T14:53:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023820s][吞吐率：41.98req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T15:03:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023916s][吞吐率：41.81req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T15:13:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030996s][吞吐率：32.26req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T15:23:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024420s][吞吐率：40.95req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T15:33:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017482s][吞吐率：57.20req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T15:43:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022470s][吞吐率：44.50req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T15:53:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018791s][吞吐率：53.22req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T16:03:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.581568s][吞吐率：1.72req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T16:13:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027675s][吞吐率：36.13req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T16:23:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024103s][吞吐率：41.49req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T16:33:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018036s][吞吐率：55.45req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T16:43:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022920s][吞吐率：43.63req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T16:53:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017914s][吞吐率：55.82req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T17:03:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022598s][吞吐率：44.25req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T17:13:44+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019178s][吞吐率：52.14req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T17:23:44+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018728s][吞吐率：53.40req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T17:33:44+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017716s][吞吐率：56.45req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T17:43:44+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017536s][吞吐率：57.03req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T17:53:44+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021506s][吞吐率：46.50req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T18:03:44+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023893s][吞吐率：41.85req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T18:13:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.437279s][吞吐率：2.29req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T18:23:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026956s][吞吐率：37.10req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T18:33:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020159s][吞吐率：49.61req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T18:43:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020496s][吞吐率：48.79req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T18:53:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019668s][吞吐率：50.84req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T19:03:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019451s][吞吐率：51.41req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T19:13:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020288s][吞吐率：49.29req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T19:23:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019627s][吞吐率：50.95req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T19:33:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019390s][吞吐率：51.57req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T19:43:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019180s][吞吐率：52.14req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T19:53:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018157s][吞吐率：55.08req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T20:03:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020599s][吞吐率：48.55req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T20:13:45+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023812s][吞吐率：42.00req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T20:23:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017958s][吞吐率：55.68req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T20:33:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017381s][吞吐率：57.53req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T20:43:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017986s][吞吐率：55.60req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T20:53:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017359s][吞吐率：57.61req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T21:03:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017203s][吞吐率：58.13req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T21:13:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016875s][吞吐率：59.26req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T21:23:46+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016476s][吞吐率：60.69req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T21:24:25+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022336s][吞吐率：44.77req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T21:24:28+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016912s][吞吐率：59.13req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:10:56+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：1.130063s][吞吐率：0.88req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:11:19+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019744s][吞吐率：50.65req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:11:21+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018024s][吞吐率：55.48req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:11:24+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018592s][吞吐率：53.79req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:11:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017513s][吞吐率：57.10req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:12:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029858s][吞吐率：33.49req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:22:27+08:00 ] 127.0.0.1 GET /crossdomain.xml
+[ info ] 127.0.0.1/crossdomain.xml [运行时间：0.524953s][吞吐率：1.90req/s] [内存消耗：1,433.21kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'crossdomain.xml',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'accept-language' => 'zh-CN',
+  'x-flash-version' => '29,0,0,140',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299',
+  'host' => '127.0.0.1',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:22:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017553s][吞吐率：56.97req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:32:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019289s][吞吐率：51.84req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:42:40+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023027s][吞吐率：43.43req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-30T23:52:40+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024502s][吞吐率：40.81req/s] [内存消耗：1,431.41kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

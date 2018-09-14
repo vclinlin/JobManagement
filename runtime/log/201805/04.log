@@ -1,0 +1,4076 @@
+---------------------------------------------------------------
+[ 2018-05-04T11:26:48+08:00 ] 127.0.0.1 GET /
+[ info ] www.vclin01.com/ [运行时间：0.716577s][吞吐率：1.40req/s] [内存消耗：1,397.58kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:26:51+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.294810s][吞吐率：3.39req/s] [内存消耗：1,759.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:26:51+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.126997s][吞吐率：7.87req/s] [内存消耗：1,775.64kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:27:11+08:00 ] 127.0.0.1 POST /muban/index/reg
+[ info ] www.vclin01.com/muban/index/reg [运行时间：0.460951s][吞吐率：2.17req/s] [内存消耗：2,878.98kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '呵呵哒',
+  'pass' => '123456',
+)
+[ info ] [ RUN ] app\muban\controller\Index->Reg[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057845s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.051207s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830' LIMIT 1 [ RunTime:0.025771s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`users` , `pass` , `names`) VALUES ('4481465830' , 'e10adc3949ba59abbe56e057f20f883e' , '呵呵哒') [ RunTime:0.033963s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:27:19+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.029985s][吞吐率：33.35req/s] [内存消耗：1,776.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:27:27+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] www.vclin01.com/muban/index/onlogin [运行时间：0.088205s][吞吐率：11.34req/s] [内存消耗：2,912.66kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '4481465830',
+  'pass' => '123465',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001384s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.045549s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = '3d9188577cc9bfe9291ac66b5cc872b7' LIMIT 1 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:27:30+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] www.vclin01.com/muban/index/onlogin [运行时间：0.083382s][吞吐率：11.99req/s] [内存消耗：2,912.66kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '4481465830',
+  'pass' => '123465',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010778s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.044390s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = '3d9188577cc9bfe9291ac66b5cc872b7' LIMIT 1 [ RunTime:0.000508s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:27:35+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] www.vclin01.com/muban/index/onlogin [运行时间：0.106750s][吞吐率：9.37req/s] [内存消耗：2,940.62kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '4481465830',
+  'pass' => '123456',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010565s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.040109s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000382s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:27:36+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.101271s][吞吐率：9.87req/s] [内存消耗：2,943.34kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001063s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.037524s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000903s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:28:29+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.109698s][吞吐率：9.12req/s] [内存消耗：2,943.95kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010804s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.041301s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000698s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:30:01+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.105613s][吞吐率：9.47req/s] [内存消耗：2,943.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011404s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.042697s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:30:01+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.065989s][吞吐率：15.15req/s] [内存消耗：2,943.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001360s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032874s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:30:02+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.091625s][吞吐率：10.91req/s] [内存消耗：2,943.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010851s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031784s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000383s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:30:02+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.067822s][吞吐率：14.74req/s] [内存消耗：2,943.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010574s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028511s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000328s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000195s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:30:02+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.069437s][吞吐率：14.40req/s] [内存消耗：2,943.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011345s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.028433s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000515s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:30:03+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.074627s][吞吐率：13.40req/s] [内存消耗：2,943.27kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011041s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030041s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:31:25+08:00 ] 127.0.0.1 GET /
+[ info ] www.vclin01.com/ [运行时间：0.018165s][吞吐率：55.05req/s] [内存消耗：1,399.56kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:31:30+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.096380s][吞吐率：10.38req/s] [内存消耗：2,906.06kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=4481465830; pass=e10adc3949ba59abbe56e057f20f883e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013351s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034860s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '4481465830'  AND `pass` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000494s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:31:30+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.017983s][吞吐率：55.61req/s] [内存消耗：1,775.64kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:31:49+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.023076s][吞吐率：43.33req/s] [内存消耗：1,776.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:32:01+08:00 ] 127.0.0.1 POST /muban/index/reg
+[ info ] www.vclin01.com/muban/index/reg [运行时间：0.078629s][吞吐率：12.72req/s] [内存消耗：2,878.98kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '44',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '唐玉琳',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->Reg[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011622s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027982s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '3141050291' LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`users` , `pass` , `names`) VALUES ('3141050291' , '415875bb9cc7c039fda6707892fbf992' , '唐玉琳') [ RunTime:0.003241s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:33:17+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.019954s][吞吐率：50.12req/s] [内存消耗：1,776.11kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T11:33:23+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] www.vclin01.com/muban/index/onlogin [运行时间：0.099163s][吞吐率：10.08req/s] [内存消耗：2,940.62kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '28',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '3141050291',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011499s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.029446s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '3141050291'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000563s ]
+---------------------------------------------------------------
+[ 2018-05-04T11:33:24+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.079542s][吞吐率：12.57req/s] [内存消耗：2,943.34kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=3141050291; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001307s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034826s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '3141050291'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '3141050291'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[ 2018-05-04T12:27:14+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：2.284165s][吞吐率：0.44req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:27:29+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028867s][吞吐率：34.64req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:27:32+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019488s][吞吐率：51.31req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:27:35+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018416s][吞吐率：54.30req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:27:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018002s][吞吐率：55.55req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:28:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017173s][吞吐率：58.23req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:38:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.441470s][吞吐率：2.27req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:48:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017875s][吞吐率：55.94req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T12:58:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.039535s][吞吐率：25.29req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:08:50+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028074s][吞吐率：35.62req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:16:23+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024367s][吞吐率：41.04req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:16:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016966s][吞吐率：58.94req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:17:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020550s][吞吐率：48.66req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:27:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026949s][吞吐率：37.11req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:37:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029707s][吞吐率：33.66req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:47:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027679s][吞吐率：36.13req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T13:57:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016862s][吞吐率：59.30req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T14:07:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016501s][吞吐率：60.60req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T14:17:38+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016730s][吞吐率：59.77req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T14:27:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018493s][吞吐率：54.07req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T14:37:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021602s][吞吐率：46.29req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T14:47:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.017995s][吞吐率：55.57req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T14:57:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016784s][吞吐率：59.58req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T15:07:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018127s][吞吐率：55.17req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T15:17:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.016636s][吞吐率：60.11req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T15:27:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026343s][吞吐率：37.96req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T15:37:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026012s][吞吐率：38.44req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T15:47:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023686s][吞吐率：42.22req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T15:57:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023957s][吞吐率：41.74req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T16:07:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022840s][吞吐率：43.78req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T16:17:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.031632s][吞吐率：31.61req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T16:27:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028348s][吞吐率：35.28req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T16:37:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.035956s][吞吐率：27.81req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T16:47:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019093s][吞吐率：52.38req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T16:57:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028235s][吞吐率：35.42req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T17:07:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027092s][吞吐率：36.91req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T17:17:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020792s][吞吐率：48.10req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T17:27:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020330s][吞吐率：49.19req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T17:37:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025285s][吞吐率：39.55req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T17:47:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.029194s][吞吐率：34.25req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T17:57:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028450s][吞吐率：35.15req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:07:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027466s][吞吐率：36.41req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:17:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027950s][吞吐率：35.78req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:27:39+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.026725s][吞吐率：37.42req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:37:40+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.032052s][吞吐率：31.20req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:44:35+08:00 ] 127.0.0.1 GET /
+[ info ] www.vclin01.com/ [运行时间：0.957427s][吞吐率：1.04req/s] [内存消耗：1,397.59kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:44:42+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.348374s][吞吐率：2.87req/s] [内存消耗：1,759.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:44:42+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.144197s][吞吐率：6.93req/s] [内存消耗：1,775.64kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:44:42+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.141841s][吞吐率：7.05req/s] [内存消耗：1,775.64kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:44:51+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] www.vclin01.com/muban/index/onlogin [运行时间：0.547885s][吞吐率：1.83req/s] [内存消耗：2,940.61kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '745730',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.101048s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.102702s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.019576s ]
+---------------------------------------------------------------
+[ 2018-05-04T18:44:52+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.100505s][吞吐率：9.95req/s] [内存消耗：2,943.34kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011580s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.026393s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2018-05-04T18:47:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.458543s][吞吐率：2.18req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T18:57:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018505s][吞吐率：54.04req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T19:07:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028756s][吞吐率：34.78req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T19:17:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018900s][吞吐率：52.91req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T19:27:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030231s][吞吐率：33.08req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T19:37:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030074s][吞吐率：33.25req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T19:47:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.025643s][吞吐率：39.00req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T19:57:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027265s][吞吐率：36.68req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T20:07:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020309s][吞吐率：49.24req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T20:17:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022977s][吞吐率：43.52req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T20:27:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.033082s][吞吐率：30.23req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T20:37:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.022049s][吞吐率：45.35req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T20:47:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024945s][吞吐率：40.09req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T20:57:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021806s][吞吐率：45.86req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:07:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021173s][吞吐率：47.23req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:17:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019926s][吞吐率：50.19req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:27:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028095s][吞吐率：35.59req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:37:41+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023174s][吞吐率：43.15req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:41:36+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.343112s][吞吐率：2.91req/s] [内存消耗：1,759.70kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:41:36+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] www.vclin01.com/muban/index/login [运行时间：0.072056s][吞吐率：13.88req/s] [内存消耗：1,775.64kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:41:43+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] www.vclin01.com/muban/index/onlogin [运行时间：0.270717s][吞吐率：3.69req/s] [内存消耗：2,940.61kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.vclin01.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '745730',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001812s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.041428s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.009576s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:41:45+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.288422s][吞吐率：3.47req/s] [内存消耗：3,112.32kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001008s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.051334s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000804s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:41:47+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.082490s][吞吐率：12.12req/s] [内存消耗：2,943.94kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011445s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033171s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000652s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:42:17+08:00 ] 127.0.0.1 GET /muban
+[ info ] www.vclin01.com/muban [运行时间：0.103759s][吞吐率：9.64req/s] [内存消耗：3,112.92kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.vclin01.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.vclin01.com/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011926s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.037191s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000813s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000452s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:42:59+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.024417s][吞吐率：40.96req/s] [内存消耗：1,759.97kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:42:59+08:00 ] 192.168.3.16 GET /muban/index/login
+[ info ] 192.168.3.15/muban/index/login [运行时间：0.020241s][吞吐率：49.40req/s] [内存消耗：1,775.90kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:43:09+08:00 ] 192.168.3.16 POST /muban/index/onlogin
+[ info ] 192.168.3.15/muban/index/onlogin [运行时间：0.089128s][吞吐率：11.22req/s] [内存消耗：2,941.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.3.15',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'users' => '745730',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011623s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038582s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000677s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:43:11+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.059720s][吞吐率：16.74req/s] [内存消耗：2,943.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001356s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.027198s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:43:37+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.079750s][吞吐率：12.54req/s] [内存消耗：2,943.00kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-GB;q=0.8,en-US;q=0.6',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011377s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033185s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000502s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:43:47+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.085403s][吞吐率：11.71req/s] [内存消耗：2,943.00kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-GB;q=0.8,en-US;q=0.6',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011124s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.040402s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000652s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:44:00+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.074252s][吞吐率：13.47req/s] [内存消耗：2,943.76kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001407s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.036635s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000469s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:47:39+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.089937s][吞吐率：11.12req/s] [内存消耗：2,943.00kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-GB;q=0.8,en-US;q=0.6',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011994s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033200s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000946s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000695s ]
+---------------------------------------------------------------
+[ 2018-05-04T21:47:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021947s][吞吐率：45.56req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T21:57:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018612s][吞吐率：53.73req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:07:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.018658s][吞吐率：53.60req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:17:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.040260s][吞吐率：24.84req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:27:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020668s][吞吐率：48.38req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:37:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020316s][吞吐率：49.22req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:47:42+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.024710s][吞吐率：40.47req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:47:53+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.034172s][吞吐率：29.26req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:50:11+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.019349s][吞吐率：51.68req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:57:12+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.030057s][吞吐率：33.27req/s] [内存消耗：1,759.97kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:57:12+08:00 ] 192.168.3.16 GET /muban/index/login
+[ info ] 192.168.3.15/muban/index/login [运行时间：0.020582s][吞吐率：48.59req/s] [内存消耗：1,775.90kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:57:21+08:00 ] 192.168.3.16 POST /muban/index/onlogin
+[ info ] 192.168.3.15/muban/index/onlogin [运行时间：0.082800s][吞吐率：12.08req/s] [内存消耗：2,941.20kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.3.15',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+  'users' => '745730',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011310s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031592s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000709s ]
+---------------------------------------------------------------
+[ 2018-05-04T22:57:23+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.083690s][吞吐率：11.95req/s] [内存消耗：2,943.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011975s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.040060s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000434s ]
+---------------------------------------------------------------
+[ 2018-05-04T22:57:28+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.077878s][吞吐率：12.84req/s] [内存消耗：2,943.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011397s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031833s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2018-05-04T22:57:34+08:00 ] 192.168.3.16 GET /muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5
+[ info ] 192.168.3.15/muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5 [运行时间：0.024924s][吞吐率：40.12req/s] [内存消耗：1,436.60kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban1001模板首页',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:57:34+08:00 ] 192.168.3.16 GET /muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5
+[ info ] 192.168.3.15/muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5 [运行时间：0.018185s][吞吐率：54.99req/s] [内存消耗：1,436.60kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban1001模板首页',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:57:54+08:00 ] 192.168.3.16 GET /ziyun
+[ info ] 192.168.3.15/ziyun [运行时间：0.847485s][吞吐率：1.18req/s] [内存消耗：1,758.98kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ziyun',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\ziyun\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\ziyun\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/ziyun\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:58:16+08:00 ] 127.0.0.1 GET /muban
+[ info ] 127.0.0.1/muban [运行时间：0.027022s][吞吐率：37.01req/s] [内存消耗：1,759.47kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:58:17+08:00 ] 127.0.0.1 GET /muban/index/login
+[ info ] 127.0.0.1/muban/index/login [运行时间：0.025804s][吞吐率：38.75req/s] [内存消耗：1,775.66kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T22:58:23+08:00 ] 127.0.0.1 POST /muban/index/onlogin
+[ info ] 127.0.0.1/muban/index/onlogin [运行时间：0.081291s][吞吐率：12.30req/s] [内存消耗：2,940.58kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/muban/index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'users' => '745730',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010799s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.037872s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000670s ]
+---------------------------------------------------------------
+[ 2018-05-04T22:58:25+08:00 ] 127.0.0.1 GET /muban
+[ info ] 127.0.0.1/muban [运行时间：0.074584s][吞吐率：13.41req/s] [内存消耗：2,943.30kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/muban/index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002631s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.040303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000367s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:00:11+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.028425s][吞吐率：35.18req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:00:45+08:00 ] 192.168.3.16 GET /ziyun1002%E9%A6%96%E9%A1%B5
+[ info ] 192.168.3.15/ziyun1002%E9%A6%96%E9%A1%B5 [运行时间：0.016615s][吞吐率：60.19req/s] [内存消耗：1,436.48kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ziyun1002首页',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:00:45+08:00 ] 192.168.3.16 GET /ziyun1002%E9%A6%96%E9%A1%B5
+[ info ] 192.168.3.15/ziyun1002%E9%A6%96%E9%A1%B5 [运行时间：0.019902s][吞吐率：50.25req/s] [内存消耗：1,436.48kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ziyun1002首页',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:00:48+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.088572s][吞吐率：11.29req/s] [内存消耗：3,111.18kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001280s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034209s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000567s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:00:50+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.078436s][吞吐率：12.75req/s] [内存消耗：2,943.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001197s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047147s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:00:54+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.074874s][吞吐率：13.36req/s] [内存消耗：2,943.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011219s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030793s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:01:23+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.020169s][吞吐率：49.58req/s] [内存消耗：1,759.81kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8,UC/145',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=c46gbf7e6k26q5mpq52splv88k',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:01:24+08:00 ] 192.168.3.16 GET /muban/index/login
+[ info ] 192.168.3.15/muban/index/login [运行时间：0.887706s][吞吐率：1.13req/s] [内存消耗：1,939.80kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8,UC/145',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=c46gbf7e6k26q5mpq52splv88k',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:01:35+08:00 ] 192.168.3.16 POST /muban/index/onlogin
+[ info ] 192.168.3.15/muban/index/onlogin [运行时间：0.078713s][吞吐率：12.70req/s] [内存消耗：2,941.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => 'index',
+    2 => 'onlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'content-length' => '24',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.3.15',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=c46gbf7e6k26q5mpq52splv88k',
+)
+[ info ] [ PARAM ] array (
+  'users' => '745730',
+  'pass' => '745730',
+)
+[ info ] [ RUN ] app\muban\controller\Index->onlogin[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011389s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030693s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000720s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:01:36+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.073569s][吞吐率：13.59req/s] [内存消耗：2,942.93kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8,UC/145',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=c46gbf7e6k26q5mpq52splv88k; users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.040626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000498s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:01:58+08:00 ] 127.0.0.1 GET /muban
+[ info ] 127.0.0.1/muban [运行时间：0.082323s][吞吐率：12.15req/s] [内存消耗：2,943.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012249s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034237s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000520s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000519s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:01:58+08:00 ] 127.0.0.1 GET /muban
+[ info ] 127.0.0.1/muban [运行时间：0.153772s][吞吐率：6.50req/s] [内存消耗：2,943.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011744s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.097354s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000565s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:01:58+08:00 ] 127.0.0.1 GET /muban
+[ info ] 127.0.0.1/muban [运行时间：0.085049s][吞吐率：11.76req/s] [内存消耗：2,943.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011696s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.033859s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000526s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:01:58+08:00 ] 127.0.0.1 GET /muban
+[ info ] 127.0.0.1/muban [运行时间：0.076886s][吞吐率：13.01req/s] [内存消耗：2,943.48kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011836s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.032019s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000578s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:03:21+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.081699s][吞吐率：12.24req/s] [内存消耗：2,943.62kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8,UC/145',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.36',
+  'referer' => 'http://192.168.3.15/muban/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,en-US;q=0.8',
+  'cookie' => 'PHPSESSID=c46gbf7e6k26q5mpq52splv88k; users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001315s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.041410s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000731s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000604s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:10:11+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.020154s][吞吐率：49.62req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:20:11+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.023033s][吞吐率：43.42req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:30:11+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.027888s][吞吐率：35.86req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:40:12+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.030328s][吞吐率：32.97req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:42:55+08:00 ] 192.168.3.16 GET /muban
+[ info ] 192.168.3.15/muban [运行时间：0.070987s][吞吐率：14.09req/s] [内存消耗：2,943.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.3.15',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.3 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\muban\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\muban\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/muban\view\index\index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001644s ] mysql:host=127.0.0.1;port=3306;dbname=youdb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.031987s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' LIMIT 1 [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT `names` FROM `user` WHERE  `users` = '745730'  AND `pass` = '415875bb9cc7c039fda6707892fbf992' [ RunTime:0.000463s ]
+---------------------------------------------------------------
+[ 2018-05-04T23:43:06+08:00 ] 192.168.3.16 GET /muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5
+[ info ] 192.168.3.15/muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5 [运行时间：0.019691s][吞吐率：50.78req/s] [内存消耗：1,436.60kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban1001模板首页',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:43:06+08:00 ] 192.168.3.16 GET /muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5
+[ info ] 192.168.3.15/muban1001%E6%A8%A1%E6%9D%BF%E9%A6%96%E9%A1%B5 [运行时间：0.020198s][吞吐率：49.51req/s] [内存消耗：1,436.60kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'muban1001模板首页',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'users=745730; pass=415875bb9cc7c039fda6707892fbf992',
+  'q-ua2' => 'QV=3&PL=ADR&PR=QB&PP=com.tencent.mtt&PPVN=8.3.1.4075&TBSVC=43100&CO=BK&COVC=038370&PB=GE&VE=GA&DE=PHONE&CHID=20810&LCID=10304&MO= MHA-AL00 &RL=1080*1920&OS=8.0.0&API=26',
+  'accept' => 'application/vnd.wap.xhtml+xml,application/xml,text/vnd.wap.wml,text/html,application/xhtml+xml,image/jpeg;q=0.5,image/png;q=0.5,image/gif;q=0.5,image/*;q=0.6,video/*,audio/*,*/*;q=0.6',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/533.1 (KHTML, like Gecko) Mobile Safari/533.1',
+  'connection' => 'Close',
+  'accept-encoding' => 'gzip',
+  'apn-type' => '1-0',
+  'host' => '192.168.3.15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-04T23:50:12+08:00 ] 127.0.0.1 GET /wpad.dat
+[ info ] wpad.com/wpad.dat [运行时间：0.021007s][吞吐率：47.60req/s] [内存消耗：1,431.91kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'wpad.dat',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'accept' => '*/*',
+  'user-agent' => 'WinHttp-Autoproxy-Service/5.1',
+  'host' => 'wpad.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

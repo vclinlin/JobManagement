@@ -1,0 +1,42 @@
+---------------------------------------------------------------
+[ 2018-05-27T00:18:34+08:00 ] 127.0.0.1 GET /
+[ info ] www.check.com/ [运行时间：0.748574s][吞吐率：1.34req/s] [内存消耗：2,929.11kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.check.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\public/../application/index\view\index\index.php [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->nav[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\widget\Widgets.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\public/../application/index\view\widget\nav.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011579s ] mysql:host=127.0.0.1;port=3306;dbname=thinkweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.024730s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userid` IS NULL  AND `pass` IS NULL [ RunTime:0.000614s ]

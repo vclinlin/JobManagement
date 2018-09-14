@@ -1,0 +1,282 @@
+---------------------------------------------------------------
+[ 2018-04-06T01:00:42+08:00 ] 192.168.42.132 GET /
+[ info ] 192.168.42.1/ [运行时间：0.526178s][吞吐率：1.90req/s] [内存消耗：1,395.91kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:00:49+08:00 ] 192.168.42.132 GET /
+[ info ] 192.168.42.1/ [运行时间：0.015958s][吞吐率：62.66req/s] [内存消耗：1,395.92kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:00:51+08:00 ] 192.168.42.132 GET /
+[ info ] 192.168.42.1/ [运行时间：0.015559s][吞吐率：64.27req/s] [内存消耗：1,395.92kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:01:01+08:00 ] 192.168.42.132 GET /mvc1/ca
+[ info ] 192.168.42.1/mvc1/ca [运行时间：0.498830s][吞吐率：2.00req/s] [内存消耗：1,906.46kb] [文件加载：45]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mvc1',
+    1 => 'ca',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Mvc1\controller\Ca->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\Mvc1\controller\Ca.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/mvc1\view\ca\index.html [ array (
+  0 => 'codeA',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:01:01+08:00 ] 192.168.42.132 GET /static/bootstrap4.0/css/style.css
+[ info ] 192.168.42.1/static/bootstrap4.0/css/style.css [运行时间：0.317827s][吞吐率：3.15req/s] [内存消耗：1,432.95kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap4.0',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/css,*/*;q=0.1',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.42.1/mvc1/ca',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:01:01+08:00 ] 192.168.42.132 GET /static/bootstrap4.0/js/echarts.min.js
+[ info ] 192.168.42.1/static/bootstrap4.0/js/echarts.min.js [运行时间：0.255953s][吞吐率：3.91req/s] [内存消耗：1,432.68kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap4.0',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.42.1/mvc1/ca',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:01:01+08:00 ] 192.168.42.132 GET /static/bootstrap4.0/js/echarts.min.js
+[ info ] 192.168.42.1/static/bootstrap4.0/js/echarts.min.js [运行时间：0.019456s][吞吐率：51.40req/s] [内存消耗：1,432.68kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap4.0',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.42.1/mvc1/ca',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:02:29+08:00 ] 192.168.42.132 GET /
+[ info ] 192.168.42.1/ [运行时间：0.015937s][吞吐率：62.75req/s] [内存消耗：1,395.92kb] [文件加载：36]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:02:39+08:00 ] 192.168.42.132 GET /mvc1/ca
+[ info ] 192.168.42.1/mvc1/ca [运行时间：0.020062s][吞吐率：49.85req/s] [内存消耗：1,748.34kb] [文件加载：43]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mvc1',
+    1 => 'ca',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Mvc1\controller\Ca->index[ D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\application\Mvc1\controller\Ca.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\public/../application/mvc1\view\ca\index.html [ array (
+  0 => 'codeA',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-04-06T01:02:39+08:00 ] 192.168.42.132 GET /static/bootstrap4.0/js/echarts.min.js
+[ info ] 192.168.42.1/static/bootstrap4.0/js/echarts.min.js [运行时间：0.015980s][吞吐率：62.58req/s] [内存消耗：1,432.68kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap4.0',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.42.1/mvc1/ca',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+T File
+---------------------------------------------------------------
+[ 2018-04-06T01:02:39+08:00 ] 192.168.42.132 GET /static/bootstrap4.0/js/echarts.min.js
+[ info ] 192.168.42.1/static/bootstrap4.0/js/echarts.min.js [运行时间：0.017064s][吞吐率：58.60req/s] [内存消耗：1,432.68kb] [文件加载：38]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\TP5\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'bootstrap4.0',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.42.1',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0',
+  'accept' => '*/*',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://192.168.42.1/mvc1/ca',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2644 @@
+---------------------------------------------------------------
+[ 2018-08-20T18:24:26+08:00 ] 192.168.1.2 GET /
+[ info ] 192.168.1.2/ [运行时间：1.078303s][吞吐率：0.93req/s] [内存消耗：2,203.76kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134',
+  'accept-language' => 'zh-Hans-CN,zh-Hans;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'upgrade-insecure-requests' => '1',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => '192.168.1.2',
+  'connection' => 'Keep-Alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-20T18:24:49+08:00 ] 192.168.1.4 GET /
+[ info ] 192.168.1.2/ [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,203.95kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-20T18:26:23+08:00 ] 192.168.1.4 POST /index/index/login.html
+[ info ] 192.168.1.2/index/index/login.html [运行时间：10.913409s][吞吐率：0.09req/s] [内存消耗：3,504.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.1.2/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'number' => '16301070',
+  'pass' => '745730',
+  'class_number' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:10.731573s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.031251s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032689s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:25+08:00 ] 192.168.1.4 POST /index/index/login.html
+[ info ] 192.168.1.2/index/index/login.html [运行时间：18.339719s][吞吐率：0.05req/s] [内存消耗：3,504.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.1.2/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'number' => '16301070',
+  'pass' => '745730',
+  'class_number' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:17.169335s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.037032s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.037389s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:26+08:00 ] 192.168.1.4 GET /index/students
+[ info ] 192.168.1.2/index/students [运行时间：0.485388s][吞吐率：2.06req/s] [内存消耗：3,542.82kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.1.2/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046756s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.029999s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030176s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.032827s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`class_id`,`state` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035559s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as ClassName FROM `student` `A`,`vc_class` `B` WHERE  (  A.class_id=B.Id and A.number=16301070 ) [ RunTime:0.031225s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030694s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:30+08:00 ] 192.168.1.4 POST /index/index/login.html
+[ info ] 192.168.1.2/index/index/login.html [运行时间：18.573268s][吞吐率：0.05req/s] [内存消耗：3,504.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.1.2/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'number' => '16301070',
+  'pass' => '745730',
+  'class_number' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:18.386788s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.041859s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.041988s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:32+08:00 ] 192.168.1.4 POST /index/index/login.html
+[ info ] 192.168.1.2/index/index/login.html [运行时间：15.770970s][吞吐率：0.06req/s] [内存消耗：3,504.60kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://192.168.1.2',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://192.168.1.2/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'number' => '16301070',
+  'pass' => '745730',
+  'class_number' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:15.631145s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.032886s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033086s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:39+08:00 ] 192.168.1.4 GET /index/students/course
+[ info ] 192.168.1.2/index/students/course [运行时间：0.594198s][吞吐率：1.68req/s] [内存消耗：3,677.80kb] [文件加载：58]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.1.2/index/students',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->Course[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\mycourse.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050104s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.033707s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.034242s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.033269s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.037336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.074613s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `course` WHERE  `class_id` = 1 LIMIT 1 [ RunTime:0.032975s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `class_id` = 1 LIMIT 0,11 [ RunTime:0.044294s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033054s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:42+08:00 ] 192.168.1.4 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] 192.168.1.2/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.658932s][吞吐率：1.52req/s] [内存消耗：3,712.48kb] [文件加载：60]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.1.2/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048019s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.030208s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032567s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.030982s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031489s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.032895s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.064003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.034271s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.030931s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.031332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.033470s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031338s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:26:42+08:00 ] 192.168.1.4 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] 192.168.1.2/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.514102s][吞吐率：1.95req/s] [内存消耗：3,712.48kb] [文件加载：60]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.1.2/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044383s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.029947s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.040250s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.030769s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030097s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.035645s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.029271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.030353s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.028201s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.030190s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.029064s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.028356s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:29:41+08:00 ] 192.168.1.4 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] 192.168.1.2/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.793735s][吞吐率：1.26req/s] [内存消耗：3,906.49kb] [文件加载：62]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062199s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.037863s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.041043s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.040399s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.039234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.041233s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.039981s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.039130s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.038408s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.039487s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.043363s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.038741s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:31:37+08:00 ] 192.168.1.4 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] 192.168.1.2/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.601411s][吞吐率：1.66req/s] [内存消耗：3,906.07kb] [文件加载：62]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047782s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.031902s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.043880s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.035219s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.062044s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.026298s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.042519s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.036132s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.025354s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.028184s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.024675s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.024712s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:31:41+08:00 ] 192.168.1.4 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] 192.168.1.2/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.488067s][吞吐率：2.05req/s] [内存消耗：3,712.56kb] [文件加载：60]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '192.168.1.2',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MHA-AL00 Build/HUAWEIMHA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.132 MQQBrowser/8.7 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,image/sharpp,image/apng,*/*;q=0.8',
+  'referer' => 'http://192.168.1.2/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh-CN;q=0.8,en-GB;q=0.6,en-US;q=0.4',
+  'cookie' => 'PHPSESSID=odkuavpqn0v6npl8sb7nbkt8co',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042434s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.028577s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026587s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.031580s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026815s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.027693s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.030365s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.027020s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.026334s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.027986s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.026989s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027252s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:31:53+08:00 ] 127.0.0.1 GET /
+[ info ] www.tpwork.com/ [运行时间：0.055244s][吞吐率：18.10req/s] [内存消耗：2,203.77kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-20T18:32:02+08:00 ] 127.0.0.1 POST /index/index/login.html
+[ info ] www.tpwork.com/index/index/login.html [运行时间：0.192260s][吞吐率：5.20req/s] [内存消耗：3,504.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.tpwork.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'number' => '16301070',
+  'pass' => '745730',
+  'class_number' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050850s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.030727s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031609s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:32:05+08:00 ] 127.0.0.1 GET /index/students
+[ info ] www.tpwork.com/index/students [运行时间：0.383270s][吞吐率：2.61req/s] [内存消耗：3,543.09kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052283s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.034015s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035457s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.038052s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`class_id`,`state` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.034352s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as ClassName FROM `student` `A`,`vc_class` `B` WHERE  (  A.class_id=B.Id and A.number=16301070 ) [ RunTime:0.038088s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032320s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:32:06+08:00 ] 127.0.0.1 GET /index/students/course
+[ info ] www.tpwork.com/index/students/course [运行时间：0.397294s][吞吐率：2.52req/s] [内存消耗：3,677.95kb] [文件加载：58]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->Course[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\mycourse.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047211s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.028331s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027202s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.031693s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.031082s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `course` WHERE  `class_id` = 1 LIMIT 1 [ RunTime:0.027704s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `class_id` = 1 LIMIT 0,11 [ RunTime:0.029179s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.029758s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:32:08+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.624650s][吞吐率：1.60req/s] [内存消耗：3,712.63kb] [文件加载：60]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061426s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.040029s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.042670s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.042252s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035879s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.034211s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.038896s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.036584s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.035063s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.034561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.037012s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035807s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:32:09+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.483413s][吞吐率：2.07req/s] [内存消耗：3,712.83kb] [文件加载：60]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045712s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.024750s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.024958s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.026964s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.025138s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.028463s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.027280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.025700s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.027475s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.026790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.029937s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.025022s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:32:11+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.657103s][吞吐率：1.52req/s] [内存消耗：3,712.83kb] [文件加载：60]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056267s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.039232s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.039729s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.038883s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.037924s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.037668s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.038842s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.044726s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.037163s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.039930s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.037478s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.053234s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:34:31+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.705962s][吞吐率：1.42req/s] [内存消耗：4,029.93kb] [文件加载：66]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034682s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.022939s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.023706s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.023673s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030335s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.029520s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.027084s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.023253s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.025332s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.025922s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.025466s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026533s ]
+[ error ] [8]Use of undefined constant index - assumed 'index'[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:34:50+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.568033s][吞吐率：1.76req/s] [内存消耗：4,109.64kb] [文件加载：67]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039241s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.024914s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033793s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.027585s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027580s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.028552s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.026981s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.025713s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.025331s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.026396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.028873s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.028820s ]
+[ error ] [8]Array to string conversion[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:35:07+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.608186s][吞吐率：1.64req/s] [内存消耗：4,109.64kb] [文件加载：67]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.045279s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.028293s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.028387s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.029028s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.029760s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.028892s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.033375s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.034963s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.034572s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.030350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.030958s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030894s ]
+[ error ] [8]Array to string conversion[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:35:26+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.527419s][吞吐率：1.90req/s] [内存消耗：4,109.64kb] [文件加载：67]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037354s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.024611s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.024397s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.024121s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026112s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.023546s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.024435s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.028681s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.024475s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.026393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.028917s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.023663s ]
+[ error ] [8]Array to string conversion[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:36:10+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.632907s][吞吐率：1.58req/s] [内存消耗：4,109.64kb] [文件加载：67]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046866s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.030782s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030669s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.034795s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.031787s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.030915s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.036344s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.031320s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.032707s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.033540s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031382s ]
+[ error ] [8]Array to string conversion[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:31+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.621242s][吞吐率：1.61req/s] [内存消耗：4,109.64kb] [文件加载：67]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.058734s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.030176s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031194s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.029464s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026767s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.026494s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.030943s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.027658s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.027187s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.032324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.033643s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030178s ]
+[ error ] [8]Array to string conversion[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:32+08:00 ] 127.0.0.1 GET /index/students/course
+[ info ] www.tpwork.com/index/students/course [运行时间：0.372539s][吞吐率：2.68req/s] [内存消耗：3,678.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->Course[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\mycourse.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036689s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.027827s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.023345s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.024701s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.024263s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `course` WHERE  `class_id` = 1 LIMIT 1 [ RunTime:0.031184s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `class_id` = 1 LIMIT 0,11 [ RunTime:0.025449s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.024169s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:34+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.610530s][吞吐率：1.64req/s] [内存消耗：3,855.62kb] [文件加载：65]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052071s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.032331s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033587s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.038973s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.038695s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.032909s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.033361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.034762s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.034789s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.036071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.032831s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032655s ]
+[ error ] [8]Array to string conversion[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\runtime\temp\d210e5e2296ae92e31ea7f39842610ce.php:59]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:52+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.545109s][吞吐率：1.83req/s] [内存消耗：3,986.60kb] [文件加载：63]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036535s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.024306s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.051750s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.024175s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030777s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.030525s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.030657s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.027043s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.025117s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.023870s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.035681s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.023984s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:54+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.274625s][吞吐率：3.64req/s] [内存消耗：3,530.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102786s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.029678s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031343s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.030533s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:56+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.640310s][吞吐率：1.56req/s] [内存消耗：3,792.78kb] [文件加载：61]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.064833s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.037739s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.041364s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.037576s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.038646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.037987s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.037543s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.040521s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.037120s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.043369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.038445s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.038552s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:58+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/2.html
+[ info ] www.tpwork.com/index/students/workdetails/id/2.html [运行时间：0.254000s][吞吐率：3.94req/s] [内存消耗：3,530.52kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.055458s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.036953s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.039472s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.035946s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:37:59+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.521684s][吞吐率：1.92req/s] [内存消耗：3,792.78kb] [文件加载：61]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044053s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.027961s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033732s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.030131s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.029901s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.028399s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.029951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.029780s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.027516s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.029422s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.030071s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027766s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:45:55+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.312861s][吞吐率：3.20req/s] [内存消耗：3,553.54kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041073s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.026383s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027524s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.028366s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026160s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.026937s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.026296s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:45:59+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/5
+[ info ] www.tpwork.com/index/students/workdetails/id/5 [运行时间：0.424239s][吞吐率：2.36req/s] [内存消耗：3,556.07kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052487s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.029131s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.037333s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.033039s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.032446s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 5 LIMIT 1 [ RunTime:0.030060s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:02+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.386069s][吞吐率：2.59req/s] [内存消耗：3,553.54kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056601s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.034913s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.040277s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.038390s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.038728s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.040575s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.040790s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:08+08:00 ] 127.0.0.1 GET /index/students/workdetails/
+[ info ] www.tpwork.com/index/students/workdetails/ [运行时间：0.231113s][吞吐率：4.33req/s] [内存消耗：3,574.81kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044939s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.028383s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027656s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.028577s ]
+[ error ] [0]方法参数错误:id[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\library\think\App.php:431]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:10+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.361944s][吞吐率：2.76req/s] [内存消耗：3,552.84kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/workdetails/id/5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053308s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.034921s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030914s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.032482s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.040762s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.033118s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.036912s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:13+08:00 ] 127.0.0.1 GET /index/students/
+[ info ] www.tpwork.com/index/students/ [运行时间：0.518967s][吞吐率：1.93req/s] [内存消耗：3,544.68kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.071967s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.058829s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.097908s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.078382s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`class_id`,`state` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031975s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as ClassName FROM `student` `A`,`vc_class` `B` WHERE  (  A.class_id=B.Id and A.number=16301070 ) [ RunTime:0.032898s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.037666s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:15+08:00 ] 127.0.0.1 GET /index/students/course
+[ info ] www.tpwork.com/index/students/course [运行时间：0.465028s][吞吐率：2.15req/s] [内存消耗：3,679.93kb] [文件加载：58]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'course',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->Course[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\mycourse.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'data',
+  1 => 'page',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059356s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.041885s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033371s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.032975s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035942s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.041442s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `course` WHERE  `class_id` = 1 LIMIT 1 [ RunTime:0.035387s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `class_id` = 1 LIMIT 0,11 [ RunTime:0.035835s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031727s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:16+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.668558s][吞吐率：1.50req/s] [内存消耗：3,794.41kb] [文件加载：61]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.110806s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.033329s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.042801s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.036231s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.036812s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.044202s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.034605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.033888s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.033947s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.037166s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.039458s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033083s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:25+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/5
+[ info ] www.tpwork.com/index/students/workdetails/id/5 [运行时间：0.321506s][吞吐率：3.11req/s] [内存消耗：3,556.07kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042595s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.024635s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.024947s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.028227s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.036165s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.028814s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 5 LIMIT 1 [ RunTime:0.030516s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:46:29+08:00 ] 127.0.0.1 GET /index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91
+[ info ] www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91 [运行时间：0.691842s][吞吐率：1.45req/s] [内存消耗：3,794.41kb] [文件加载：61]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'courseDetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/course',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'key' => 'PHP动态网站开发',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->CourseDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\students\coursedetails.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'data',
+  1 => 'page',
+  2 => 'course',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052771s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.032277s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032434s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.062489s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.068624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.039913s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.074481s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.032879s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `homework` WHERE  `course_id` = 1 LIMIT 1 [ RunTime:0.032403s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `course_id` = 1 LIMIT 0,8 [ RunTime:0.033806s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.035051s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035896s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:47:12+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.438072s][吞吐率：2.28req/s] [内存消耗：3,606.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.061935s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.059181s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.035642s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.035498s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.033799s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.042270s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.035151s ]
+[ error ] [2]Illegal string offset 'course_id'[D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php:204]
+---------------------------------------------------------------
+[ 2018-08-20T18:47:30+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.373393s][吞吐率：2.68req/s] [内存消耗：3,553.73kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.072338s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.030943s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.040086s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.032029s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.031124s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.032190s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:47:31+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.355700s][吞吐率：2.81req/s] [内存消耗：3,553.73kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.050308s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.032924s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.044390s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.032862s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031801s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.034436s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.032632s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:47:40+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.452445s][吞吐率：2.21req/s] [内存消耗：3,553.98kb] [文件加载：52]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.049714s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.036822s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031957s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.091752s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.032863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.037870s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.035083s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:50:40+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.412868s][吞吐率：2.42req/s] [内存消耗：3,570.83kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043858s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.025652s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.031357s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.028686s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026863s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.027165s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.026891s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.030276s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.046765s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:52:46+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.423338s][吞吐率：2.36req/s] [内存消耗：3,571.04kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.097361s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.023693s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030886s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.023471s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.023782s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.030729s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.025445s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.025185s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:52:51+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.360240s][吞吐率：2.78req/s] [内存消耗：3,571.04kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.039424s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.026853s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027017s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.027395s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.027897s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.026933s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.027007s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.025398s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.027223s ]
+---------------------------------------------------------------
+[ 2018-08-20T18:54:58+08:00 ] 127.0.0.1 GET /index/students/workdetails/id/1.html
+[ info ] www.tpwork.com/index/students/workdetails/id/1.html [运行时间：0.421871s][吞吐率：2.37req/s] [内存消耗：3,571.05kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => 'workdetails',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students/courseDetails?id=1&key=PHP%E5%8A%A8%E6%80%81%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=gsd1orr9iiu6j8bpqauck29a1o',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->WorkDetails[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048634s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.030910s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030853s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.036478s ]
+[ sql ] [ SQL ] SELECT `Id`,`class_id`,`name` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.030734s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `homework` [ RunTime:0.031782s ]
+[ sql ] [ SQL ] SELECT * FROM `homework` WHERE  `Id` = 1 LIMIT 1 [ RunTime:0.031876s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `course` [ RunTime:0.030850s ]
+[ sql ] [ SQL ] SELECT * FROM `course` WHERE  `Id` = 1  AND `class_id` = 1 [ RunTime:0.031617s ]

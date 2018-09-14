@@ -1,0 +1,735 @@
+---------------------------------------------------------------
+[ 2018-08-05T15:46:38+08:00 ] 127.0.0.1 GET /
+[ info ] www.tpwork.com/ [运行时间：0.090511s][吞吐率：11.05req/s] [内存消耗：2,123.97kb] [文件加载：43]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-05T15:46:53+08:00 ] 127.0.0.1 POST /index/index/login
+[ info ] www.tpwork.com/index/index/login [运行时间：0.146725s][吞吐率：6.82req/s] [内存消耗：3,504.25kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'content-length' => '46',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.tpwork.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+  'number' => '123456789',
+  'pass' => '123456789',
+  'class_number' => '2',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.044792s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.032379s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.030211s ]
+---------------------------------------------------------------
+[ 2018-08-05T15:46:55+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.261427s][吞吐率：3.83req/s] [内存消耗：3,609.21kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.040238s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.024366s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.025178s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.024662s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.044334s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.024800s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.024333s ]
+---------------------------------------------------------------
+[ 2018-08-05T15:47:57+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.304765s][吞吐率：3.28req/s] [内存消耗：3,609.29kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047843s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.030790s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.032997s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.031644s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.030738s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.034757s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.033072s ]
+---------------------------------------------------------------
+[ 2018-08-05T15:47:57+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.276657s][吞吐率：3.61req/s] [内存消耗：3,609.29kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047085s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.029763s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.031062s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.030602s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.033188s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.030430s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.033191s ]
+---------------------------------------------------------------
+[ 2018-08-05T15:47:58+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.294800s][吞吐率：3.39req/s] [内存消耗：3,609.29kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.053435s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.032614s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.035324s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.032252s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.032406s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.035563s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.032777s ]
+---------------------------------------------------------------
+[ 2018-08-05T15:47:59+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.258643s][吞吐率：3.87req/s] [内存消耗：3,609.36kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.042543s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.028118s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.027999s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.029293s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.028724s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.027644s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.028934s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:00:55+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.339117s][吞吐率：2.95req/s] [内存消耗：3,609.29kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.056326s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.037220s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.037349s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.040979s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.040369s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.037018s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.037664s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:01:06+08:00 ] 127.0.0.1 GET /index/teachers
+[ info ] www.tpwork.com/index/teachers [运行时间：0.309513s][吞吐率：3.23req/s] [内存消耗：3,609.29kb] [文件加载：55]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'teachers',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=u7jmjmduf9vki9qvi7vnsstd3q',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Teachers->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Teachers.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\teachers\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Teachers[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\teachers.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052211s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `teachers` [ RunTime:0.032571s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.034942s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `state` = 0  AND `department_id` <> 0 [ RunTime:0.032228s ]
+[ sql ] [ SQL ] SELECT * FROM `teachers` WHERE  `number` = '123456789'  AND `department_id` = 0 [ RunTime:0.032360s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as depName FROM `teachers` `A`,`department` `B` WHERE  (  A.department_id=B.Id and A.number=123456789 ) [ RunTime:0.038615s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`department_id`,`state` FROM `teachers` WHERE  `number` = '123456789'  AND `pass` = '82b670deb0331979dceb2ce8c797c4e6' [ RunTime:0.032842s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:09:32+08:00 ] 127.0.0.1 GET /
+[ info ] www.tpwork.com/ [运行时间：0.055787s][吞吐率：17.93req/s] [内存消耗：2,404.33kb] [文件加载：46]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-05T16:09:40+08:00 ] 127.0.0.1 POST /index/index/login.html
+[ info ] www.tpwork.com/index/index/login.html [运行时间：0.183494s][吞吐率：5.45req/s] [内存消耗：3,504.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'content-length' => '42',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.tpwork.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=1sijc7hpvfvfc0f64a8cl4q711',
+)
+[ info ] [ PARAM ] array (
+  'number' => '16301070',
+  'pass' => '745730',
+  'class_number' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.057944s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.037535s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.037252s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:09:43+08:00 ] 127.0.0.1 GET /index/students
+[ info ] www.tpwork.com/index/students [运行时间：0.250253s][吞吐率：4.00req/s] [内存消耗：3,543.12kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=1sijc7hpvfvfc0f64a8cl4q711',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\student\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.041671s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.026100s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.025776s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.027437s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`class_id`,`state` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.028055s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as ClassName FROM `student` `A`,`vc_class` `B` WHERE  (  A.class_id=B.Id and A.number=16301070 ) [ RunTime:0.025051s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.026286s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:16:15+08:00 ] 127.0.0.1 GET /index/students
+[ info ] www.tpwork.com/index/students [运行时间：0.334971s][吞吐率：2.99req/s] [内存消耗：3,543.20kb] [文件加载：54]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'students',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=1sijc7hpvfvfc0f64a8cl4q711',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\index\controller\Students->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Students.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\student\index.html [ array (
+  0 => 'Details',
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Students[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\widgets\students.html [ array (
+  0 => 'Details',
+  1 => 'data',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.060456s ] mysql:host=118.24.184.68;port=3306;dbname=mywork;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `student` [ RunTime:0.036722s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.036846s ]
+[ sql ] [ SQL ] SELECT * FROM `student` WHERE  `number` = '16301070'  AND `state` = 0  AND `class_id` <> 0 [ RunTime:0.037009s ]
+[ sql ] [ SQL ] SELECT `name`,`number`,`class_id`,`state` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.036625s ]
+[ sql ] [ SQL ] SELECT `A`.`name`,`A`.`number`,B.name as ClassName FROM `student` `A`,`vc_class` `B` WHERE  (  A.class_id=B.Id and A.number=16301070 ) [ RunTime:0.037141s ]
+[ sql ] [ SQL ] SELECT `name`,`number` FROM `student` WHERE  `number` = '16301070'  AND `pass` = 'fb7eda5b5d722efa50c104c1fc298078' [ RunTime:0.036446s ]
+---------------------------------------------------------------
+[ 2018-08-05T16:16:21+08:00 ] 127.0.0.1 GET /index/index/exitlogin
+[ info ] www.tpwork.com/index/index/exitlogin [运行时间：0.058261s][吞吐率：17.16req/s] [内存消耗：2,140.02kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'exitlogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=1sijc7hpvfvfc0f64a8cl4q711',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->ExitLogin[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-05T16:16:21+08:00 ] 127.0.0.1 GET /
+[ info ] www.tpwork.com/ [运行时间：0.026665s][吞吐率：37.50req/s] [内存消耗：2,205.23kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tpwork.com/index/students',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=1sijc7hpvfvfc0f64a8cl4q711',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-05T16:16:27+08:00 ] 127.0.0.1 GET /
+[ info ] www.tpwork.com/ [运行时间：0.025010s][吞吐率：39.98req/s] [内存消耗：2,204.33kb] [文件加载：44]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tpwork.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=1sijc7hpvfvfc0f64a8cl4q711',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\WorkManagement\shop\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File

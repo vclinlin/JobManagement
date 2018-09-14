@@ -1,0 +1,155 @@
+---------------------------------------------------------------
+[ 2018-06-03T16:46:38+08:00 ] 127.0.0.1 GET /
+[ info ] www.check.com/ [运行时间：1.209375s][吞吐率：0.83req/s] [内存消耗：3,533.33kb] [文件加载：56]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.check.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\public/../application/index\view\index\index.php [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->nav[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\widget\Widgets.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\public/../application/index\view\widget\nav.php [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Turns[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\public/../application/index\view\widget\turns.php [ array (
+) ]
+[ info ] [ RUN ] app\index\widget\Widgets->Walls[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\widget\Widgets.php ]
+[ info ] [ VIEW ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\public/../application/index\view\widget\walls.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006217s ] mysql:host=127.0.0.1;port=3306;dbname=thinkweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.095340s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `userid` IS NULL  AND `pass` IS NULL [ RunTime:0.001010s ]
+---------------------------------------------------------------
+[ 2018-06-03T16:46:39+08:00 ] 127.0.0.1 GET /index/index/getwalls
+[ info ] www.check.com/index/index/getwalls [运行时间：0.137922s][吞吐率：7.25req/s] [内存消耗：3,517.02kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getwalls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.check.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.check.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=hl8t73nn9if4cak84ne8edo77n',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getwalls[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001194s ] mysql:host=127.0.0.1;port=3306;dbname=thinkweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `walls` [ RunTime:0.040876s ]
+[ sql ] [ SQL ] SELECT * FROM `walls` ORDER BY `walls_time`  DESC [ RunTime:0.000794s ]
+---------------------------------------------------------------
+[ 2018-06-03T16:46:52+08:00 ] 127.0.0.1 POST /index/index/walls
+[ info ] www.check.com/index/index/walls [运行时间：0.215471s][吞吐率：4.64req/s] [内存消耗：3,503.46kb] [文件加载：53]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'walls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.check.com',
+  'connection' => 'keep-alive',
+  'content-length' => '14',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.check.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.check.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=hl8t73nn9if4cak84ne8edo77n',
+)
+[ info ] [ PARAM ] array (
+  'walls' => '20180603',
+)
+[ info ] [ RUN ] app\index\controller\Index->walls[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001323s ] mysql:host=127.0.0.1;port=3306;dbname=thinkweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `walls` [ RunTime:0.024148s ]
+[ sql ] [ SQL ] INSERT INTO `walls` (`walls` , `walls_time` , `username`) VALUES ('20180603' , '2018-06-03:16:46:51' , '游客') [ RunTime:0.080589s ]
+---------------------------------------------------------------
+[ 2018-06-03T16:46:52+08:00 ] 127.0.0.1 GET /index/index/getwalls
+[ info ] www.check.com/index/index/getwalls [运行时间：0.108168s][吞吐率：9.24req/s] [内存消耗：3,517.23kb] [文件加载：51]
+[ info ] [ LANG ] D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'getwalls',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.check.com',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36',
+  'referer' => 'http://www.check.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9,zh-TW;q=0.8',
+  'cookie' => 'PHPSESSID=hl8t73nn9if4cak84ne8edo77n',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->getwalls[ D:\Vc_PHP\Apache24\htdocs\2018\ThinkPHP\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:host=127.0.0.1;port=3306;dbname=thinkweb;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `walls` [ RunTime:0.027323s ]
+[ sql ] [ SQL ] SELECT * FROM `walls` ORDER BY `walls_time`  DESC [ RunTime:0.000825s ]
