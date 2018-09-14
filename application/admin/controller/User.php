@@ -429,7 +429,7 @@ class User extends Index
         $model = new Teachers();
         if(!$model->where($Ary)
             ->update(['pass'=>md5(md5($Ary['number']).md5('123456').md5('!@#$%^&*()_+')),
-                'state'=>0]))
+                'state'=>1]))
         {
             echo json_encode($data = [
                 "state"=>false,
