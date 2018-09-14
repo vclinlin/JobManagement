@@ -103,6 +103,11 @@
         }
         var formData = new FormData();
         formData.append("file", $("#file0")[0].files[0]);
+        layer.msg('文件上传中,请不要关闭当前页面', {
+            icon: 16,
+            time:0,
+            shade:0.01
+        });
         $.ajax({
             url:"{:url('index/Students/UpWorkFiles',['course_id'=>$work.course_id,'work_id'=>$work.Id,'end_time'=>$work.end_time])}",
             type: 'post',

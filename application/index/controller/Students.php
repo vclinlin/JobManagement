@@ -268,6 +268,14 @@ class Students extends Controller
             return;
         }
         $file = $this->request->file('file');
+        if(!$file)
+        {
+            echo json_encode([
+                "code"=>0,
+                "msg"=>"文件上传失败！".$file->getError()
+            ]);
+            return;
+        }
         $info = $file->move('./upload/workfiles',''.$mydata['Id'].time());
         if(!$info){
             echo json_encode([
