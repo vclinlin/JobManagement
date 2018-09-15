@@ -348,4 +348,88 @@ class Students extends Controller
             return;
         }
     }
+
+    public function textUp($course_id,$work_id,$end_time) //文本作业提交
+    {
+        //获取学生信息验证作业有效性
+        $mydata = $this->GetMyData();
+        $workModel = new Homework();
+        $rel = $workModel->get(['course_id'=>$course_id,'Id'=>$work_id,'end_time'=>$end_time]);
+        //防止修改参数上传作业文件
+        if(!$rel)
+        {
+            echo json_encode([
+                "code"=>0,
+                "msg"=>"作业提交失败:作业信息错误"
+            ]);
+            return;
+        }
+        if($end_time<time())
+        {
+            echo json_encode([
+                "code"=>0,
+                "msg"=>"作业提交失败:答题时间已过"
+            ]);
+            return;
+        }
+        $text = htmlentities($this->request->post('text'));
+        if(!$text)
+        {
+            echo json_encode([
+                "code"=>0,
+                "msg"=>"作业提交失败:作业内容为空"
+            ]);
+            return;
+        }
+        $data=[
+            'work_id'=>$work_id,
+            'student_id'=>$mydata['Id'],
+            'students_name'=>$mydata['name'],
+            'students_num'=>Session::get('user'),
+            'course_id'=>$course_id,
+            'type'=>1,
+            'message'=>$text,
+            'updatetime'=>time()
+        ];
+        $model = new Workfiles();
+        //未回答过本次作业
+        $relData = $model->get(['work_id'=>$work_id,'student_id'=>$mydata['Id']]);
+        if(!$relData) {
+            if (!$model->save($data)) {
+                echo json_encode([
+                    "code" => 0,
+                    "msg" => "作业提交失败,稍后再试"
+                ]);
+                return;
+            }
+            echo json_encode([
+                "code"=>200,
+                "msg"=>"作业提交完成"
+            ]);
+            return;
+        }else {
+            // 作业已经批阅
+            if ($relData['state'] == 1) {
+                echo json_encode([
+                    "code" => 0,
+                    "msg" => "作业已批阅,无法完成操作"
+                ]);
+                return;
+            }
+            $data['count_sum'] = $relData['count_sum'] += 1;
+            if (!$model->where(['work_id' => $work_id, 'student_id' => $mydata['Id']])->update($data)) {
+                echo json_encode([
+                    "code" => 0,
+                    "msg" => "作业更新失败,稍后再试"
+                ]);
+                return;
+            }
+            echo json_encode([
+                "code" => 200,
+                "msg" => "作业更新完成"
+            ]);
+            return;
+        }
+
+    }
 }

@@ -25,6 +25,11 @@
                    data-url="" value="课程资料" onclick="OpenUrl(this)"/>
         </div>
     </div>
+    {if count($data) == 0}
+    <div class="row p-2 m-2 bg-light border">
+        <div class="h4 col-12 text-center">作业正在赶来的路上</div>
+    </div>
+    {/if}
     {volist name="data" id="data" key="key"}
     <div class="row p-2 m-2 bg-light border">
         <div class="col-sm-9 d-flex justify-content-start">
