@@ -5,10 +5,8 @@
     <bookmark url="file://$PROJECT_DIR$/application/index/view/students/index.html" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="修复课程列表界面显示问题">
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="完善作业的文本提交方式">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/controller/Students.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/controller/Students.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/students/coursedetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/students/coursedetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/students/workdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/students/workdetails.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,15 +96,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="846" />
-          <entry key="php" value="1677" />
-          <entry key="txt" value="126" />
+          <entry key="php" value="1695" />
+          <entry key="txt" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="846" />
-          <entry key="PHP" value="1677" />
-          <entry key="PLAIN_TEXT" value="126" />
+          <entry key="PHP" value="1695" />
+          <entry key="PLAIN_TEXT" value="139" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -128,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/view/students/workdetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+            <state relative-caret-position="295">
+              <caret line="164" column="9" selection-start-line="164" selection-start-column="9" selection-end-line="164" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -142,8 +140,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/controller/Students.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="389" column="21" selection-start-line="389" selection-start-column="21" selection-end-line="389" selection-end-column="21" />
+            <state relative-caret-position="361">
+              <caret line="251" column="66" selection-start-line="251" selection-start-column="66" selection-end-line="251" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
               </folding>
@@ -521,7 +519,7 @@
       <workItem from="1536936865944" duration="1399000" />
       <workItem from="1536940599991" duration="3487000" />
       <workItem from="1537017012464" duration="22000" />
-      <workItem from="1537017074152" duration="4006000" />
+      <workItem from="1537017074152" duration="4395000" />
     </task>
     <task id="LOCAL-00001" summary="更新资源">
       <created>1536909047438</created>
@@ -579,11 +577,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537017134104</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="完善作业的文本提交方式">
+      <created>1537021110899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1537021110899</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完善作业的文本提交方式">
+      <created>1537021371803</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1537021371803</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470783000" />
+    <option name="totallyTimeSpent" value="471172000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -655,7 +667,8 @@
     <MESSAGE value="修改用户登录用户类型判断方式" />
     <MESSAGE value="支持上传后作业下载" />
     <MESSAGE value="修复课程列表界面显示问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复课程列表界面显示问题" />
+    <MESSAGE value="完善作业的文本提交方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善作业的文本提交方式" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -969,8 +982,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/controller/Students.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="389" column="21" selection-start-line="389" selection-start-column="21" selection-end-line="389" selection-end-column="21" />
+        <state relative-caret-position="361">
+          <caret line="251" column="66" selection-start-line="251" selection-start-column="66" selection-end-line="251" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
           </folding>
@@ -979,8 +992,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/students/workdetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="54" column="29" lean-forward="true" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+        <state relative-caret-position="295">
+          <caret line="164" column="9" selection-start-line="164" selection-start-column="9" selection-end-line="164" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#3;n#div#0;n#!!top" expanded="true" />
