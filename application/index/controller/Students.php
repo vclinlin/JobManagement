@@ -244,12 +244,12 @@ class Students extends Controller
 
     }
 
-    public function UpWorkFiles($course_id,$work_id,$end_time)
+    public function UpWorkFiles($course_id,$work_id,$end_time) //文件作业上传
     {
         //获取学生信息验证作业有效性
         $mydata = $this->GetMyData();
         $workModel = new Homework();
-        $rel = $workModel->get(['course_id'=>$course_id,'Id'=>$work_id,'end_time'=>$end_time]);
+        $rel = $workModel->get(['course_id'=>$course_id,'Id'=>$work_id,'end_time'=>$end_time,'scheme'=>0]);
         //防止修改参数上传作业文件
         if(!$rel)
         {
@@ -354,7 +354,7 @@ class Students extends Controller
         //获取学生信息验证作业有效性
         $mydata = $this->GetMyData();
         $workModel = new Homework();
-        $rel = $workModel->get(['course_id'=>$course_id,'Id'=>$work_id,'end_time'=>$end_time]);
+        $rel = $workModel->get(['course_id'=>$course_id,'Id'=>$work_id,'end_time'=>$end_time,'scheme'=>1]);
         //防止修改参数上传作业文件
         if(!$rel)
         {
