@@ -13,8 +13,8 @@
 {block name="body"}
 <!-- 导航栏 -->
 {:widget('widgets/students')}
-<div class="container line-one">
-    <div class="row bg-light">
+<div class="container line-one bg-light">
+    <div class="row">
         <div class="col-sm-12">
             <h3>标题:{$work.title}</h3>
             <p>要求:</p>
@@ -54,7 +54,7 @@
     </div>
     {if $work.workState == 1}
     <div  style="margin-top:20px;" class="table-responsive">
-        <table class="table text-center table-bordered">
+        <table class="table text-center table-bordered" id="table-nowrap" >
             <thead>
                 <tr>
                     <td>学号</td>
@@ -110,6 +110,7 @@
 <script>
     $(function () {
     //    -------
+        $("#table-nowrap").find('td').attr('nowrap','nowrap');
     })
     function filesUp() {
         var files = $("#file0");
