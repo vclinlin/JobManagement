@@ -70,15 +70,15 @@
                 </select>
             </div>
         </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label">课程状态</label>
-            <div class="layui-input-block">
-                <select id="state" name="state" lay-verify="required">
-                    <option value="0">进行中</option>
-                    <option value="1">停课</option>
-                </select>
-            </div>
-        </div>
+        <!--<div class="layui-form-item">-->
+            <!--<label class="layui-form-label">课程状态</label>-->
+            <!--<div class="layui-input-block">-->
+                <!--<select id="state" name="state" lay-verify="required">-->
+                    <!--<option value="0">进行中</option>-->
+                    <!--<option value="1">停课</option>-->
+                <!--</select>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="layui-form-item">
             <div class="layui-input-block">
                 <button class="layui-btn" onclick="add()"  lay-filter="formDemo">立即提交</button>
@@ -93,7 +93,7 @@
         var name = $("#name").val().trim();
         var class_id = $("#class_id").val().trim();
         var teachers_id = $("#teachers_id").val().trim();
-        var state = $("#state").val().trim();
+        // var state = $("#state").val().trim();
         /**
          * 验证数据
          * @type {RegExp}
@@ -114,11 +114,11 @@
             layer.msg('请选择讲师');
             return;
         }
-        if(state!=0&&state!=1)
-        {
-            layer.msg('请选择课程状态');
-            return;
-        }
+        // if(state!=0&&state!=1)
+        // {
+        //     layer.msg('请选择课程状态');
+        //     return;
+        // }
         $.ajax({
             url:"/admin/index/upcourse",
             type:"post",
@@ -128,7 +128,7 @@
                 name,
                 class_id,
                 teachers_id,
-                state
+                // state
             },
             success:function (data) {
                 if(!data['state'])
