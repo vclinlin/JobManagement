@@ -62,7 +62,7 @@
                     <td>答题类型</td>
                     <td>答题时间</td>
                     <td>答题次数</td>
-                    <td>是否批阅</td>
+                    <td>批阅时间</td>
                     {if $datas.type == 0}
                     <td>操作</td>
                     {/if}
@@ -87,7 +87,7 @@
                         未批阅
                         {/if}
                         {if $datas.state == 1}
-                        已批阅
+                            {$datas.markdate|date='Y-m-d:H:i:s',###}
                         {/if}
                     </td>
                     {if $datas.type == 0}
@@ -101,7 +101,7 @@
                     <div  style="margin-top:20px;">
                         <label for="textMsg">教师评语:</label>
                         <textarea id="textMsg" style="resize: none;color: black"
-                                  rows="4" class="col-12" disabled>还没有评语...</textarea>
+                                  rows="4" class="col-12" disabled>{if $datas.comments != ""}{$datas.comments}{else}还没有评语...{/if}</textarea>
                     </div>
                 {/if}
     {/if}
