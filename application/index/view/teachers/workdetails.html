@@ -31,11 +31,30 @@
                    data-url="{:url('index/Teachers/UpDateWork',['id'=>$course_data.Id,'course_id'=>$course_data.course_id])}"
                    onclick="OpenUrl(this)" />
             <input type="button" class="btn btn-block btn-danger"  value="返回前页"
-                   onclick="javascript:history.back(-1);" />
+                   onclick="OpenUrl(this)" data-url="/index/teachers/courseDetails?id={$course_data.course_id}&key={$course.name}" />
         </div>
     </div>
     <div  class="collapse p-2 m-2 bg-dark text-white demo" data-parent=".line-one">  <!-- 作业要求详细 -->
         <textarea style="resize:none"  class="col-12 bg-dark text-white border-0" disabled rows="10">{$course_data.msg}</textarea>
     </div>
+    <div  style="margin-top:20px;" class="table-responsive">
+        <table>
+            <thead class="table" id="table-nowrap">
+                <tr>
+                    <td>学号</td>
+                    <td>姓名</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </thead>
+    {volist name="workData" id="workData"}
+    {/volist}
+        </table>
+    </div>
+    <ul class="text-dark container d-flex justify-content-center fixed-bottom">
+        {$page}
+    </ul>
 </div>
 {/block}
