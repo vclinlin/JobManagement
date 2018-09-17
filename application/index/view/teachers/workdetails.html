@@ -73,7 +73,7 @@
                     </td>
                     <td>{$workData.count_sum}</td>
                     <td>{$workData.updatetime|date='Y-m-d:H:i:s',###}</td>
-                    <td>批阅</td>
+                    <td><a href="{:url('index/teachers/MarkingView',['id'=>$workData.Id])}">批阅</a></td>
                     {if $course_data.scheme == 0}
                     <td>下载</td>
                     {/if}

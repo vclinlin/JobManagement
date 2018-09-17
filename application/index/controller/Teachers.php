@@ -438,4 +438,26 @@ class Teachers extends Controller
         ]);
         return;
     }
+
+    public function MarkingView($id) //批改作业视图
+    {
+        $teaId = $this->GetTeachersId();  //获取教师id
+        $fileModel = new Workfiles();
+        $courseModel = new Course();
+        $rel = $fileModel->get(['Id'=>$id]);
+        if(!$rel)
+        {
+            $this->error('你不可以这样做');
+            return;
+        }
+        $rels = $courseModel->get(['Id'=>$rel['course_id'],'teachers_id'=>$teaId]);
+        if(!$rels)
+        {
+            $this->error('你不可以这样做');
+            return;
+        }
+        $this->assign('workData',$rel);
+        return $this->fetch();
+
+    }
 }
