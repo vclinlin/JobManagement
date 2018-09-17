@@ -376,13 +376,13 @@ class Teachers extends Controller
             return $this->error('非正常访问');
         }
         $fileModel = new Workfiles();
-        $workData = $fileModel->where(['work_id'=>$rels['Id']])->paginate(2,false,
+        $workData = $fileModel->where(['work_id'=>$rel['Id']])->paginate(15,false,
             ['query'=>request()->param()]);
         $this->assign('page',$workData->render());
         $this->assign('course_data',$rel); //该作业信息
         $this->assign('course',$rels);
         $this->assign('workData',$workData); //该作业下已提交作业
-        return $this->fetch('workdetails',['type'=>$workData[0]['type']]);
+        return $this->fetch('workdetails');
     }
 
     public function UpDateWork($id,$course_id)
