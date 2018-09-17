@@ -196,5 +196,7 @@ function x_admin_close(){
     var index = parent.layer.getFrameIndex(window.name);
     parent.layer.close(index);
 }
-
+//美化所有分页
+$(".pagination").find('span,a').attr('class','page-link');
+$(".pagination").find('li').attr('class','page-item');
 
