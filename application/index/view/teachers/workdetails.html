@@ -54,6 +54,11 @@
                 </tr>
             </thead>
             <tbody>
+            {if count($workData) == 0}
+            <tr>
+                <td colspan="8">还没有收到作业</td>
+            </tr>
+            {else}
             {volist name="workData" id="workData"}
                 <tr>
                     <td>{$workData.students_num}</td>
@@ -74,6 +79,7 @@
                     {/if}
                 </tr>
             {/volist}
+            {/if}
             </tbody>
         </table>
     </div>
