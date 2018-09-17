@@ -40,6 +40,9 @@
     <div class="col-sm-3 d-flex justify-content-center flex-column">
         <input type="button" class="btn btn-block btn-success"  value="查看"
                data-url="{:url('index/Teachers/WorkDetails',['id'=>$data.Id,'course_id'=>$course.course_id])}" onclick="OpenUrl(this)" />
+        {if $data.scheme == 0}
+        <input type="button" class="btn btn-block btn-primary"  value="下载作业" />
+        {/if}
     </div>
 </div>
     <div  class="collapse p-2 m-2 bg-dark text-white demo{$key}" data-parent=".line-one">  <!-- 作业要求详细 -->

@@ -382,7 +382,7 @@ class Teachers extends Controller
         $this->assign('course_data',$rel); //该作业信息
         $this->assign('course',$rels);
         $this->assign('workData',$workData); //该作业下已提交作业
-        return $this->fetch('workdetails');
+        return $this->fetch('workdetails',['type'=>$workData[0]['type']]);
     }
 
     public function UpDateWork($id,$course_id)
