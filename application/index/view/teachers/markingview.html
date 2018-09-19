@@ -45,7 +45,7 @@
             {/if}
             {if $workData.readType == 0}
                 {if in_array($workData.file_type,['jpg','png','gif','bmp'])}
-                <div class="col-sm-12 text-center">
+                <div class="col-sm-12 text-center" style="overflow: hidden;">
                     <img src="{$workData.message}" class="img-thumbnail img-fluid">
                 </div>
                 {elseif in_array($workData.file_type,['mp4','vai','ogg']) }
