@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:98:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/admin\view\user\notstudent.html";i:1536908768;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:98:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/admin\view\user\notstudent.html";i:1537175177;}*/ ?>
 <!DOCTYPE html>
 <html>
   
@@ -71,7 +71,7 @@
           <?php endforeach; endif; else: echo "" ;endif; ?>
         </tbody>
       </table>
-      <div class="page">
+      <div class="pagination">
         <div>
           <a class="prev" href="./NotStudentView?page=<?php echo $page-1; ?>">&lt;&lt;</a>
           <a class="num" href="./NotStudentView?page=<?php echo $page-1; ?>"><?php echo $page-1; ?></a>

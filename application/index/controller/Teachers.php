@@ -456,8 +456,39 @@ class Teachers extends Controller
             $this->error('你不可以这样做');
             return;
         }
+        if($rel['type'] == 0)  //如果是文件作业
+        {
+            if(!file_exists('.'.$rel['message']))
+            {
+                $rel['readType'] = 0;  //文件已失效或不可读
+            }else{
+                $files = fopen('.'.$rel['message'],'r');
+                $txt = htmlentities(fread($files,filesize('.'.$rel['message'])));
+//                $txt = '';
+//                while(!feof($files)) {
+//                    $txt = $txt . htmlentities(fgets($files));
+//                }
+                if($txt == '')
+                {
+                    $rel['readType'] = 0;
+                }else{
+                    $rel['readType'] = 1;
+                    $rel['filesData'] = $txt;
+                }
+                fclose($files);
+            }
+
+        }
         $this->assign('workData',$rel);
         return $this->fetch();
 
+    }
+
+    public function checkFiles()
+    {
+        $files = fopen('./upload/workfiles/421536942340.py','r');
+        dump($files);
+        $Ary = htmlentities(fread($files,filesize('./upload/workfiles/421536942340.py')));
+        echo $Ary;
     }
 }

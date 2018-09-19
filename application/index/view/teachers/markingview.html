@@ -1,7 +1,7 @@
 {extend name="layout"/}
 
 {block name="title"}
-<title>作业详情</title>
+<title>批阅作业</title>
 {/block}
 <!-- 资源 -->
 {block name="static"}
@@ -14,4 +14,69 @@
 <!-- 导航栏 -->
 {:widget('widgets/teachers')}
 
+<div class="line-one container bg-light Max-Box">
+    <div  class="table-responsive pt-2 mt-2">
+        <table class="table table-bordered  text-center table-hover" id="table-nowrap">
+            <thead>
+                <tr>
+                    <th nowrap="nowrap">学号</th>
+                    <th nowrap="nowrap">姓名</th>
+                    <th nowrap="nowrap">提交时间</th>
+                    <th nowrap="nowrap">提交次数</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td nowrap="nowrap">{$workData.students_num}</td>
+                    <td nowrap="nowrap">{$workData.students_name}</td>
+                    <td nowrap="nowrap">{$workData.updatetime}</td>
+                    <td nowrap="nowrap">{$workData.count_sum}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="col-sm-12 pt-2">
+        {if $workData.type == 0}
+        <!-- 文件作业 -->
+        <div class="form-group">
+            <label for="filesData">作业详情:</label>
+            {if $workData.readType == 1}
+                <textarea style="overflow-x: hidden;" wrap="virtual" class="form-control" id="filesData" readonly rows="15">{$workData.filesData}</textarea>
+            {/if}
+            {if $workData.readType == 0}
+                {if in_array($workData.file_type,['jpg','png','gif','bmp'])}
+                <div class="col-sm-12 text-center">
+                    <img src="{$workData.message}" style="width:50%;height: auto">
+                </div>
+                {else}
+                    <p class="text-danger  m-2 p-2">{$workData.students_num.' ' .$workData.students_name.'.'.$workData.file_type}</p>
+                {/if}
+            {/if}
+            <input type="button" class="mt-2 btn-block btn btn-success" value="下载">
+        </div>
+        {/if}
+        {if $workData.type == 1}
+            <p>作业详情:</p>
+            <textarea wrap="virtual"  class="form-control" disabled rows="20">{$workData.message}</textarea>
+        {/if}
+    </div>
+</div>
+<div class="container fixed-bottom bg-light border markingBox">
+    <div class="form-group">
+        <label for="marking">评语:</label>
+        <textarea id="marking" style="resize: none" class="col-12" rows="2" placeholder="在此输入你的评语"></textarea>
+    </div>
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="评分" id="numbers">
+        <div class="input-group-append">
+            <input type="button" class="btn-primary btn" value="确定">
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+        var div = $(".markingBox");
+        $("body").css('margin-bottom',div[0].clientHeight+30+'px');
+    })
+</script>
 {/block}

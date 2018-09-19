@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:94:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\index\index.html";i:1536930108;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1536908768;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:94:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\index\index.html";i:1537176792;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1536908768;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -165,7 +165,7 @@ function login()
     })
 }
 function checkLogin(_this) {
-    console.log(_this.value)
+    // console.log(_this.value)
     $.ajax({
         url:"<?php echo url('index/index/getNumber'); ?>",
         type: 'get',
