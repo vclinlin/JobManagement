@@ -7,8 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="新增批阅功能视频文件的支持">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/teachers/markingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/teachers/markingview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/log/201809/17.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/log/201809/17.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/index/view/students/workdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/students/workdetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/log/201809/17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/temp/f13618485ee2dc3f59b865095d24c6ce.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/f13618485ee2dc3f59b865095d24c6ce.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,7 @@
     <session id="1040235839">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -106,32 +107,32 @@
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="48" />
-          <entry key="html" value="3058" />
+          <entry key="html" value="3242" />
           <entry key="js" value="88" />
           <entry key="php" value="2643" />
-          <entry key="txt" value="252" />
+          <entry key="txt" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="48" />
-          <entry key="HTML" value="3058" />
+          <entry key="HTML" value="3242" />
           <entry key="JavaScript" value="88" />
           <entry key="PHP" value="2643" />
-          <entry key="PLAIN_TEXT" value="252" />
+          <entry key="PLAIN_TEXT" value="263" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="29" />
+          <entry key="html" value="30" />
           <entry key="js" value="7" />
           <entry key="php" value="12" />
         </counts>
@@ -139,7 +140,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="29" />
+          <entry key="HTML" value="30" />
           <entry key="JavaScript" value="7" />
           <entry key="PHP" value="12" />
         </counts>
@@ -169,15 +170,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/teachers/markingview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+            <state relative-caret-position="451">
+              <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/index/view/students/workdetails.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="144" column="21" lean-forward="true" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -264,7 +275,6 @@
         <option value="$PROJECT_DIR$/application/admin/view/index/addcourse.html" />
         <option value="$PROJECT_DIR$/application/admin/view/index/upcourse.html" />
         <option value="$PROJECT_DIR$/public/static/css/index/teachers/main.css" />
-        <option value="$PROJECT_DIR$/application/index/view/students/workdetails.html" />
         <option value="$PROJECT_DIR$/public/static/x-admin/js/xadmin.js" />
         <option value="$PROJECT_DIR$/application/index/view/teachers/coursedetails.html" />
         <option value="$PROJECT_DIR$/application/index/view/teachers/workdetails.html" />
@@ -275,6 +285,7 @@
         <option value="$PROJECT_DIR$/application/index/view/layout.html" />
         <option value="$PROJECT_DIR$/public/static/js/index/teachers/main.js" />
         <option value="$PROJECT_DIR$/application/index/view/teachers/markingview.html" />
+        <option value="$PROJECT_DIR$/application/index/view/students/workdetails.html" />
       </list>
     </option>
   </component>
@@ -318,7 +329,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -351,6 +361,14 @@
               <item name="index" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="students" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JobManagement" type="b2602c69:ProjectViewProjectNode" />
@@ -404,6 +422,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -582,7 +601,8 @@
       <workItem from="1537143695220" duration="10443000" />
       <workItem from="1537174495659" duration="2441000" />
       <workItem from="1537316691938" duration="12759000" />
-      <workItem from="1537338604105" duration="1303000" />
+      <workItem from="1537338604105" duration="1561000" />
+      <workItem from="1537361967484" duration="2109000" />
     </task>
     <task id="LOCAL-00001" summary="更新资源">
       <created>1536909047438</created>
@@ -787,17 +807,31 @@
       <option name="project" value="LOCAL" />
       <updated>1537339501057</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="新增批阅功能视频文件的支持">
+      <created>1537339933938</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1537339933938</updated>
+    </task>
+    <task id="LOCAL-00031" summary="异形图片的隐藏">
+      <created>1537340101737</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1537340101737</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="508271000" />
+    <option name="totallyTimeSpent" value="510638000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -872,9 +906,10 @@
     <MESSAGE value="完善已提交作业的展示" />
     <MESSAGE value="修复" />
     <MESSAGE value="完善批阅功能与界面显示" />
-    <MESSAGE value="新增批阅功能视频文件的支持" />
     <MESSAGE value="修改显示模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改显示模式" />
+    <MESSAGE value="新增批阅功能视频文件的支持" />
+    <MESSAGE value="异形图片的隐藏" />
+    <option name="LAST_COMMIT_MESSAGE" value="异形图片的隐藏" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1122,13 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/students/workdetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="115" column="32" lean-forward="true" selection-start-line="115" selection-start-column="32" selection-end-line="115" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/teachers/coursedetails.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1207,12 +1235,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/teachers/markingview.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+        <state relative-caret-position="451">
+          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/students/workdetails.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="144" column="21" lean-forward="true" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
         </state>
       </provider>
     </entry>

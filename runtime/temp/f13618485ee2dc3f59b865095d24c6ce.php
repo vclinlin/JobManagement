@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537106876;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537363974;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -147,15 +147,22 @@
             contentType: false,    //不可缺
             processData: false,    //不可缺
             success: function (data) {
-                var res = JSON.parse(data);  //处理字符串
-                if(res.code==200)
-                {
-                    layer.msg(res.msg,{icon:1,time:1000,shade : [0.5 , '#000' , true]},function () {
-                        location.reload();
-                    });
+                try {
+                    var res = JSON.parse(data);//处理字符串
+                    if (res.code == 200) {
+                        layer.msg(res.msg, {icon: 1, time: 1000, shade: [0.5, '#000', true]}, function () {
+                            location.reload();
+                        });
+                        return;
+                    }
+                    layer.msg(res.msg, {icon: 0, time: 1000, shade: [0.5, '#000', true]});
+                    return;
+                }catch (e) {
+                    layer.msg('文件过大(>300M),或网络故障,稍后再试', {icon: 0, time: 3000, shade: [0.5, '#000', true]});
                     return;
                 }
-                layer.msg(res.msg,{icon:0,time:1000,shade : [0.5 , '#000' , true]});
+            },error:function (data) {
+                layer.msg('文件过大(>300M),或网络故障,稍后再试', {icon: 0, time: 3000, shade: [0.5, '#000', true]});
                 return;
             }
         });
