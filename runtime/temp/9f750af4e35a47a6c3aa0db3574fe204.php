@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:105:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\coursedetails.html";i:1537149106;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1536908768;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:105:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\coursedetails.html";i:1537149106;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,6 +19,7 @@
     <script src="__BOOTSTRAP__/popper.min.js"></script>
     <script src="__JS__/layer/layer.js"></script>
     <script src="__JS__/index/teachers/main.js"></script>
+    <script src="__JS__/index/auto-line-number.js"></script>
     <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
     
 <style>

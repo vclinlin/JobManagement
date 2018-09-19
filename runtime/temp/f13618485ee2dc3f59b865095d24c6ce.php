@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537106876;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537325012;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537106876;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
