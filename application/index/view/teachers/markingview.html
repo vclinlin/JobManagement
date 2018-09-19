@@ -38,16 +38,16 @@
     <div class="col-sm-12 pt-2">
         {if $workData.type == 0}
         <!-- 文件作业 -->
-        <div class="form-group">
+        < class="form-group">
             <label for="filesData">作业详情:</label>
             {if $workData.readType == 1}
                 <textarea style="overflow-x: hidden;" wrap="virtual" class="form-control" id="filesData" readonly rows="15">{$workData.filesData}</textarea>
             {/if}
             {if $workData.readType == 0}
                 {if in_array($workData.file_type,['jpg','png','gif','bmp'])}
-                <div class="col-sm-12 text-center">
-                    <img src="{$workData.message}" style="width:50%;height: auto">
-                </div>
+                <textarea class="col-sm-12 text-center" disabled style="resize: none">
+                    <img src="{$workData.message}" style="width:50%;height:50%">
+                </textarea>
                 {elseif in_array($workData.file_type,['mp4','vai','ogg']) }
                 <div class="col-sm-12 text-center">
                     <video src="{$workData.message}">

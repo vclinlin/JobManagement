@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537328155;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537329146;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -63,6 +63,11 @@
             <?php endif; if($workData['readType'] == 0): if(in_array($workData['file_type'],['jpg','png','gif','bmp'])): ?>
                 <div class="col-sm-12 text-center">
                     <img src="<?php echo $workData['message']; ?>" style="width:50%;height: auto">
+                </div>
+                <?php elseif(in_array($workData['file_type'],['mp4','vai','ogg'])): ?>
+                <div class="col-sm-12 text-center">
+                    <video src="<?php echo $workData['message']; ?>">
+                    </video>
                 </div>
                 <?php else: ?>
                     <p class="text-danger  m-2 p-2"><?php echo $workData['students_num'].' ' .$workData['students_name'].'.'.$workData['file_type']; ?></p>
