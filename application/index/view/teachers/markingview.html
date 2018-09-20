@@ -50,9 +50,9 @@
                 </div>
                 {elseif in_array($workData.file_type,['mp4','vai','ogg']) }
                 <div class="col-sm-12 text-center">
-                    <!--<video src="{$workData.message}" height="50%" width="auto" style="object-fit:fill">-->
-                    <!--</video>-->
-                    功能性bug,占时下线
+                    <video controls height="100%" width="100%" style="object-fit: fill" >
+                        <source src="{$workData.message}"/>
+                    </video>
                 </div>
                 {else}
                     <p class="text-danger  m-2 p-2">{$workData.students_num.' ' .$workData.students_name.'.'.$workData.file_type}</p>
