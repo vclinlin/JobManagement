@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537498920;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537511345;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -87,9 +87,9 @@
         <textarea id="marking" style="resize: none" class="col-12" rows="2" placeholder="在此输入你的评语"></textarea>
     </div>
     <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="评分" id="numbers">
+        <input type="number" class="form-control" placeholder="评分" id="numbers">
         <div class="input-group-append">
-            <input type="button" class="btn-primary btn" value="确定">
+            <input type="button" class="btn-primary btn" value="确定" onclick="marking()">
         </div>
     </div>
 </div>
@@ -100,6 +100,57 @@
         var img_box =  $("#img-box");
         console.log(img_box);
     })
+    function marking(id) {
+        var marking = $("#marking").val().trim();
+        var numbers = $('#numbers').val().trim();
+        if(!/^[0-9]{1,3}$/.test(numbers))
+        {
+            layer.msg('评分仅可使用正整数', {icon: 0, time: 2000, shade: [0.5, '#000', true]});
+            return;
+        }
+        if(numbers<0||numbers>100)
+        {
+            layer.msg('评分范围(0-100)', {icon: 0, time: 2000, shade: [0.5, '#000', true]});
+            return;
+        }
+        numbers = Number(numbers);
+        if(marking != "")
+        {
+            var datas = {
+                "numbers": numbers,
+                'marking': marking
+            };
+        }else{
+            var datas = {
+                "numbers": numbers
+            };
+        }
+        $.ajax({
+            url:'<?php echo url("index/teachers/MarkingUp",["work_id"=>$workData['work_id'],"Id"=>$workData['Id'],"course_id"=>$workData['course_id']]); ?>',
+            type:'post',
+            dataType:'json',
+            data:datas,
+            success:function (res) {
+                try{
+                    if(res.state==200)
+                    {
+                        layer.msg(res.msg,{icon:1,time:2000,shade : [0.5 , '#000' , true]},function () {
+                            location.reload();
+                        });
+                        return;
+                    }
+                    layer.msg(res.msg, {icon: 0, time: 2000, shade: [0.5, '#000', true]});
+                    return;
+                }catch (e) {
+                    layer.msg('网络异常,稍后再试', {icon: 0, time: 2000, shade: [0.5, '#000', true]});
+                    return;
+                }
+            },error:function (res) {
+                layer.msg('网络异常,稍后再试', {icon: 0, time: 2000, shade: [0.5, '#000', true]});
+                return;
+            }
+        })
+    }
 </script>
 
 </body>

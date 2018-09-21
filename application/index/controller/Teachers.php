@@ -484,11 +484,62 @@ class Teachers extends Controller
 
     }
 
-    public function checkFiles()
+    public function MarkingUp($work_id,$Id,$course_id)
     {
-        $files = fopen('./upload/workfiles/421536942340.py','r');
-        dump($files);
-        $Ary = htmlentities(fread($files,filesize('./upload/workfiles/421536942340.py')));
-        echo $Ary;
+        /**
+         * 权限检测
+         */
+        $TeachersId = $this->GetTeachersId();
+        $courseModel = new Course();
+        $workModel = new Workfiles();
+        $model = new Homework();
+        //判断课程是否属于该教师
+        if(!$courseModel->get(['Id'=>$course_id,'teachers_id'=>$TeachersId]))
+        {
+            $this->error('非法操作,多次行为,会导致封号');
+            return;
+        }
+        if(!$model->get(['Id'=>$work_id,"course_id"=>$course_id]))
+        {
+            $this->error('信息错误');
+            return;
+        }
+        if(!$workModel->get(['Id'=>$Id,"course_id"=>$course_id,"state"=>0]))
+        {
+            echo json_encode([
+                'msg'=>'作业不存在或已批阅',
+                'state'=>400
+            ]);
+            return;
+        }
+        $Ary = $this->request->post();
+        if(array_key_exists('marking',$Ary))  //如果存在评语
+        {
+            $data = [
+                "state"=>1,
+                "comments"=>htmlentities($Ary['marking']),
+                "numbers"=>$Ary['numbers'],
+                "markdate"=>time()
+            ];
+        }else{
+            $data = [
+                "state"=>1,
+                "numbers"=>$Ary['numbers'],
+                "markdate"=>time()
+            ];
+        }
+        if(!$workModel->where(["Id"=>$Id])->update($data))
+        {
+            echo json_encode([
+                'msg'=>'批阅不成功,检查网咯后重试',
+                'state'=>400
+            ]);
+            return;
+        }
+        echo json_encode([
+            'msg'=>'作业已批阅',
+            'state'=>200
+        ]);
+        return;
     }
 }
