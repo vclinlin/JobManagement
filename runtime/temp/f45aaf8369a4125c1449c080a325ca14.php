@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537515680;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537521780;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -78,7 +78,8 @@
                     下载文件
                 </button>
                 <div class="dropdown-menu bg-light">
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href='<?php echo url("/index/teachers/downloadfiles",
+                    ["work_id"=>$workData['work_id'],"Id"=>$workData['Id'],"course_id"=>$workData['course_id']]); ?>'>
                         下载文件
                     </a>
                     <a class="dropdown-item" href="javascript:" onclick="javascript:history.back(-1);">

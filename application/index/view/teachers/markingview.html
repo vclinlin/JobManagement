@@ -63,7 +63,8 @@
                     下载文件
                 </button>
                 <div class="dropdown-menu bg-light">
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href='{:url("/index/teachers/downloadfiles",
+                    ["work_id"=>$workData.work_id,"Id"=>$workData.Id,"course_id"=>$workData.course_id])}'>
                         下载文件
                     </a>
                     <a class="dropdown-item" href="javascript:" onclick="javascript:history.back(-1);">

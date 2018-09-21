@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:94:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/admin\view\index\index.html";i:1536908768;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:94:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/admin\view\index\index.html";i:1537518557;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -241,7 +241,7 @@
           </ul>
           <div class="layui-tab-content">
             <div class="layui-tab-item layui-show">
-                <iframe src='/admin/index/welcome' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
+                <iframe src='https://www.baidu.com/' frameborder="0" scrolling="yes" class="x-iframe"></iframe>
             </div>
           </div>
         </div>
