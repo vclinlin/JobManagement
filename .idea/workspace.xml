@@ -5,15 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/application/index/view/students/index.html" line="15" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="批阅功能完善">
+    <list default="true" id="af1bf9c4-1fc8-4b68-8b8f-5b77e232aac5" name="默认的" comment="课程作业界面修复">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/teachers/coursedetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/teachers/coursedetails.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/index/view/teachers/markingview.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/teachers/markingview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/index/view/teachers/workdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/index/view/teachers/workdetails.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/7645c14283a35bed97cdc3495f4431c6.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/7645c14283a35bed97cdc3495f4431c6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/870b6328495cfde36ee03a646831f450.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/870b6328495cfde36ee03a646831f450.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/9f750af4e35a47a6c3aa0db3574fe204.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/9f750af4e35a47a6c3aa0db3574fe204.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runtime/temp/ca3d5dd7ad03e2d82dd70729d88016e6.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/ca3d5dd7ad03e2d82dd70729d88016e6.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/runtime/temp/f45aaf8369a4125c1449c080a325ca14.php" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/temp/f45aaf8369a4125c1449c080a325ca14.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -120,25 +114,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="48" />
-          <entry key="html" value="4449" />
+          <entry key="html" value="4504" />
           <entry key="js" value="88" />
           <entry key="php" value="3339" />
-          <entry key="txt" value="314" />
+          <entry key="txt" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="48" />
-          <entry key="HTML" value="4449" />
+          <entry key="HTML" value="4504" />
           <entry key="JavaScript" value="88" />
           <entry key="PHP" value="3339" />
-          <entry key="PLAIN_TEXT" value="314" />
+          <entry key="PLAIN_TEXT" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="41" />
+          <entry key="html" value="42" />
           <entry key="js" value="7" />
           <entry key="php" value="12" />
         </counts>
@@ -146,7 +140,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="41" />
+          <entry key="HTML" value="42" />
           <entry key="JavaScript" value="7" />
           <entry key="PHP" value="12" />
         </counts>
@@ -176,11 +170,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/index/view/teachers/markingview.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="62" column="65" lean-forward="true" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+            <state relative-caret-position="517">
+              <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
@@ -193,10 +187,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/index/view/teachers/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="23" selection-start-line="23" selection-end-line="67" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/index/view/teachers/coursedetails.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
+            <state relative-caret-position="87">
               <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
             </state>
           </provider>
@@ -294,8 +297,8 @@
         <option value="$PROJECT_DIR$/application/index/view/students/workdetails.html" />
         <option value="$PROJECT_DIR$/application/index/controller/Teachers.php" />
         <option value="$PROJECT_DIR$/application/index/view/teachers/workdetails.html" />
-        <option value="$PROJECT_DIR$/application/index/view/teachers/markingview.html" />
         <option value="$PROJECT_DIR$/application/index/view/teachers/coursedetails.html" />
+        <option value="$PROJECT_DIR$/application/index/view/teachers/markingview.html" />
       </list>
     </option>
   </component>
@@ -628,7 +631,7 @@
       <workItem from="1537361967484" duration="2214000" />
       <workItem from="1537419089726" duration="4896000" />
       <workItem from="1537496635768" duration="5514000" />
-      <workItem from="1537509394486" duration="3951000" />
+      <workItem from="1537509394486" duration="4938000" />
     </task>
     <task id="LOCAL-00001" summary="更新资源">
       <created>1536909047438</created>
@@ -875,11 +878,18 @@
       <option name="project" value="LOCAL" />
       <updated>1537511588775</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="课程作业界面修复">
+      <created>1537513394879</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1537513394879</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="525104000" />
+    <option name="totallyTimeSpent" value="526091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -966,7 +976,8 @@
     <MESSAGE value="新增批阅功能视频文件的支持" />
     <MESSAGE value="重新上架批阅作业的视频预览功能" />
     <MESSAGE value="批阅功能完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="批阅功能完善" />
+    <MESSAGE value="课程作业界面修复" />
+    <option name="LAST_COMMIT_MESSAGE" value="课程作业界面修复" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -1019,13 +1030,6 @@
     <entry file="file://$PROJECT_DIR$/application/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1656" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/teachers/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/model/Homework.php">
@@ -1263,21 +1267,6 @@
     <entry file="file://$PROJECT_DIR$/application/index/view/teachers/pending.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/index/view/teachers/markingview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="62" column="65" lean-forward="true" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#video#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/teachers/updatework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="858">
@@ -1304,8 +1293,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/index/view/teachers/coursedetails.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="87">
           <caret line="37" column="47" lean-forward="true" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/teachers/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="23" selection-start-line="23" selection-end-line="67" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/index/view/teachers/markingview.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="127" column="37" selection-start-line="127" selection-start-column="37" selection-end-line="127" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#video#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

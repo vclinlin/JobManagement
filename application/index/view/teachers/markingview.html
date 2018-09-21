@@ -58,10 +58,7 @@
                     <p class="text-danger  m-2 p-2">{$workData.students_num.' ' .$workData.students_name.'.'.$workData.file_type}</p>
                 {/if}
             {/if}
-            <div class="btn-group">
-                <input type="button" class="mt-2 btn  btn-success" value="下载">
-                <input type="button" onclick="javascript:history.back(-1);" class="mt-2 btn  btn-danger" value="返回">
-            </div>
+            <input type="button" class="mt-2 btn-block btn btn-success" value="下载">
         </div>
         {/if}
         {if $workData.type == 1}
