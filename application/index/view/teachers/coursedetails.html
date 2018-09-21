@@ -23,8 +23,14 @@
                    data-url="/index/teachers/addworkview?id={$course.course_id}" value="新增作业" onclick="OpenUrl(this)"/>
             <input type="button" class="btn btn-block btn-primary"
                    data-url="/index/teachers/CourseImgView?id={$course.course_id}" value="修改封面" onclick="OpenUrl(this)"/>
+            <input type="button" onclick="OpenUrl(this)" data-url="/index/teachers/course" class="btn btn-block  btn-danger" value="返回">
         </div>
     </div>
+    {if count($data) == 0}
+    <div class="row p-2 m-2 bg-light border">
+        <div class="h4 col-12 text-center">还没有发布任何作业</div>
+    </div>
+    {/if}
     {volist name="data" id="data" key="key"}
     <div class="row p-2 m-2 bg-light border">
     <div class="col-sm-9 d-flex justify-content-start">

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:105:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\coursedetails.html";i:1537149106;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:105:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\coursedetails.html";i:1537513338;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -41,9 +41,14 @@
                    data-url="/index/teachers/addworkview?id=<?php echo $course['course_id']; ?>" value="新增作业" onclick="OpenUrl(this)"/>
             <input type="button" class="btn btn-block btn-primary"
                    data-url="/index/teachers/CourseImgView?id=<?php echo $course['course_id']; ?>" value="修改封面" onclick="OpenUrl(this)"/>
+            <input type="button" onclick="OpenUrl(this)" data-url="/index/teachers/course" class="btn btn-block  btn-danger" value="返回">
         </div>
     </div>
-    <?php if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $key = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($key % 2 );++$key;?>
+    <?php if(count($data) == 0): ?>
+    <div class="row p-2 m-2 bg-light border">
+        <div class="h4 col-12 text-center">还没有发布任何作业</div>
+    </div>
+    <?php endif; if(is_array($data) || $data instanceof \think\Collection || $data instanceof \think\Paginator): $key = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($key % 2 );++$key;?>
     <div class="row p-2 m-2 bg-light border">
     <div class="col-sm-9 d-flex justify-content-start">
         <div class="text-dark">

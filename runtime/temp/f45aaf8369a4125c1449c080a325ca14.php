@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537511345;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537512521;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -73,7 +73,10 @@
                 <?php else: ?>
                     <p class="text-danger  m-2 p-2"><?php echo $workData['students_num'].' ' .$workData['students_name'].'.'.$workData['file_type']; ?></p>
                 <?php endif; endif; ?>
-            <input type="button" class="mt-2 btn-block btn btn-success" value="下载">
+            <div class="btn-group">
+                <input type="button" class="mt-2 btn  btn-success" value="下载">
+                <input type="button" onclick="javascript:history.back(-1);" class="mt-2 btn  btn-danger" value="返回">
+            </div>
         </div>
         <?php endif; if($workData['type'] == 1): ?>
             <p>作业详情:</p>

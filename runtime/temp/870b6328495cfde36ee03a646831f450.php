@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\workdetails.html";i:1537152793;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\workdetails.html";i:1537512071;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -90,7 +90,11 @@
                     </td>
                     <td><?php echo $workData['count_sum']; ?></td>
                     <td><?php echo date('Y-m-d:H:i:s',$workData['updatetime']); ?></td>
-                    <td><a href="<?php echo url('index/teachers/MarkingView',['id'=>$workData['Id']]); ?>">批阅</a></td>
+                    <td>
+                        <a href="<?php echo url('index/teachers/MarkingView',['id'=>$workData['Id']]); ?>">
+                            <?php if($workData['state'] == 1): ?>已<?php else: ?>未<?php endif; ?>批阅
+                        </a>
+                    </td>
                     <?php if($course_data['scheme'] == 0): ?>
                     <td>下载</td>
                     <?php endif; ?>
