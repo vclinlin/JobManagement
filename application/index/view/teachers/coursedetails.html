@@ -64,7 +64,7 @@
                     查看作业
                 </a>
                 {if $data.scheme == 0}
-                <a class="dropdown-item" href="#">
+                <a class="dropdown-item" href="{:url('index/Teachers/zipDownload',['course_id'=>$data.course_id,'work_id'=>$data.Id])}">
                     下载所有
                 </a>
                 {/if}

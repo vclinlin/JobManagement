@@ -593,4 +593,74 @@ class Teachers extends Controller
         echo fread ( $files, filesize ( $path ) );
         fclose ( $files );
     }
+
+    public function zipDownload($course_id,$work_id)  //文件打包下载 参数作业id,文件id
+    {
+        /**
+         * 权限检测
+         */
+        $TeachersId = $this->GetTeachersId();
+        $courseModel = new Course();
+        $workModel = new Workfiles();
+        $model = new Homework();
+        //判断课程是否属于该教师
+        $courseData = $courseModel->get(['Id'=>$course_id,'teachers_id'=>$TeachersId]);
+        if(!$courseData)
+        {
+            $this->error('非法操作,多次行为,会导致封号');
+            return;
+        }
+        //作业是否属于该老师
+        $workData = $model->get(['Id'=>$work_id,"course_id"=>$course_id]);
+        if(!$workData)
+        {
+            $this->error('还没有收到作业');
+            return;
+        }
+        //文件是否属于该老师的作业
+        $filesData =$workModel->where(['work_id'=>$work_id,"type"=>0,"course_id"=>$course_id])->select();
+        if(!$filesData)
+        {
+            $this->error('信息错误');
+            return;
+        }
+//      文件打包
+        $downloadName = $courseData['name'].'('.$workData['title'].').zip';
+        if(file_exists($downloadName))
+        {
+            @unlink($downloadName);
+        }
+        if(!file_exists($downloadName))
+        {
+            $zip = new \ZipArchive();
+            if ($zip->open($downloadName, \ZipArchive::CREATE)==TRUE) {
+                foreach ($filesData as $key){
+                    if(file_exists('.'.$key['message'])){
+                        $zip->addFile('.'.$key['message'],$key['students_num'].$key['students_name'].'.'.$key['file_type']);
+                    }
+                }
+                $zip->close();
+            }
+        }
+        if(!file_exists($downloadName)){
+            $this->error('文件不存在');
+            return;
+        }
+        $files = fopen($downloadName,'r');
+        if(!$files)
+        {
+            $this->error('文件已失效');
+            return;
+        }
+        Header ( "Content-type: application/octet-stream" );
+        Header ( "Accept-Ranges: bytes" );
+        Header ( "Accept-Length: " . filesize ( $downloadName ) );
+        Header ( "Content-Disposition: attachment; filename=" . urlencode($downloadName));
+        //输出文件内容
+        //读取文件内容并直接输出到浏览器
+        ob_clean();
+        flush();
+        echo fread ( $files, filesize ( $downloadName ) );
+        fclose ( $files );
+    }
 }
