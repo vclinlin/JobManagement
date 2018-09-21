@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537364176;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537515930;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -112,7 +112,7 @@
     </div>
                 <?php if($datas['state'] == 1): ?>
                     <div  style="margin-top:20px;">
-                        <label for="textMsg">教师评语:</label>
+                        <label for="textMsg">教师评语:(<?php echo $datas['numbers']; ?>分)</label>
                         <textarea id="textMsg" style="resize: none;color: black"
                                   rows="4" class="col-12" disabled><?php if($datas['comments'] != ""): ?><?php echo $datas['comments']; else: ?>还没有评语...<?php endif; ?></textarea>
                     </div>

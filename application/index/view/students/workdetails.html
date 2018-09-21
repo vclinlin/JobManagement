@@ -99,7 +99,7 @@
     </div>
                 {if $datas.state == 1}
                     <div  style="margin-top:20px;">
-                        <label for="textMsg">教师评语:</label>
+                        <label for="textMsg">教师评语:({$datas.numbers}分)</label>
                         <textarea id="textMsg" style="resize: none;color: black"
                                   rows="4" class="col-12" disabled>{if $datas.comments != ""}{$datas.comments}{else}还没有评语...{/if}</textarea>
                     </div>
