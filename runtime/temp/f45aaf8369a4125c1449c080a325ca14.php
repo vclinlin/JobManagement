@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537514361;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537515680;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -73,7 +73,19 @@
                 <?php else: ?>
                     <p class="text-danger  m-2 p-2"><?php echo $workData['students_num'].' ' .$workData['students_name'].'.'.$workData['file_type']; ?></p>
                 <?php endif; endif; ?>
-            <input type="button" class="mt-2 btn-block btn btn-success" value="下载">
+            <div class="dropdown mt-2">
+                <button type="button" class="btn btn-block btn-success dropdown-toggle" data-toggle="dropdown">
+                    下载文件
+                </button>
+                <div class="dropdown-menu bg-light">
+                    <a class="dropdown-item" href="#">
+                        下载文件
+                    </a>
+                    <a class="dropdown-item" href="javascript:" onclick="javascript:history.back(-1);">
+                        返回前页
+                    </a>
+                </div>
+            </div>
         </div>
         <?php endif; if($workData['type'] == 1): ?>
             <p>作业详情:</p>

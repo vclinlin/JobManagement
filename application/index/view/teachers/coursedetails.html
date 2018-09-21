@@ -19,11 +19,22 @@
                 <div class="h4">[<span class="text-danger">{$course.name}</span>]作业列表</div>
         </div>
         <div class="col-sm-3 d-flex justify-content-center flex-column">
-            <input type="button" class="btn btn-block btn-success"
-                   data-url="/index/teachers/addworkview?id={$course.course_id}" value="新增作业" onclick="OpenUrl(this)"/>
-            <input type="button" class="btn btn-block btn-primary"
-                   data-url="/index/teachers/CourseImgView?id={$course.course_id}" value="修改封面" onclick="OpenUrl(this)"/>
-            <input type="button" onclick="OpenUrl(this)" data-url="/index/teachers/course" class="btn btn-block  btn-danger" value="返回">
+            <div class="dropdown">
+                <button type="button" class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown">
+                    课程管理
+                </button>
+                <div class="dropdown-menu bg-light">
+                    <a class="dropdown-item" href="/index/teachers/addworkview?id={$course.course_id}">
+                        新增作业
+                    </a>
+                    <a class="dropdown-item" href="/index/teachers/CourseImgView?id={$course.course_id}">
+                        修改封面
+                    </a>
+                    <a class="dropdown-item" href="/index/teachers/course">
+                        我的课程
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     {if count($data) == 0}
@@ -44,11 +55,21 @@
         </div>
     </div>
     <div class="col-sm-3 d-flex justify-content-center flex-column">
-        <input type="button" class="btn btn-block btn-success"  value="查看"
-               data-url="{:url('index/Teachers/WorkDetails',['id'=>$data.Id,'course_id'=>$course.course_id])}" onclick="OpenUrl(this)" />
-        {if $data.scheme == 0}
-        <input type="button" class="btn btn-block btn-primary"  value="下载所有" />
-        {/if}
+        <div class="dropdown">
+            <button type="button" class="btn btn-block btn-success dropdown-toggle" data-toggle="dropdown">
+                作业管理
+            </button>
+            <div class="dropdown-menu bg-light">
+                <a class="dropdown-item" href="{:url('index/Teachers/WorkDetails',['id'=>$data.Id,'course_id'=>$course.course_id])}">
+                    查看作业
+                </a>
+                {if $data.scheme == 0}
+                <a class="dropdown-item" href="#">
+                    下载所有
+                </a>
+                {/if}
+            </div>
+        </div>
     </div>
 </div>
     <div  class="collapse p-2 m-2 bg-dark text-white demo{$key}" data-parent=".line-one">  <!-- 作业要求详细 -->

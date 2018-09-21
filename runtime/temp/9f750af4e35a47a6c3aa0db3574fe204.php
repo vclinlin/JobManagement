@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:105:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\coursedetails.html";i:1537513338;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:105:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\coursedetails.html";i:1537515367;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -37,11 +37,22 @@
                 <div class="h4">[<span class="text-danger"><?php echo $course['name']; ?></span>]作业列表</div>
         </div>
         <div class="col-sm-3 d-flex justify-content-center flex-column">
-            <input type="button" class="btn btn-block btn-success"
-                   data-url="/index/teachers/addworkview?id=<?php echo $course['course_id']; ?>" value="新增作业" onclick="OpenUrl(this)"/>
-            <input type="button" class="btn btn-block btn-primary"
-                   data-url="/index/teachers/CourseImgView?id=<?php echo $course['course_id']; ?>" value="修改封面" onclick="OpenUrl(this)"/>
-            <input type="button" onclick="OpenUrl(this)" data-url="/index/teachers/course" class="btn btn-block  btn-danger" value="返回">
+            <div class="dropdown">
+                <button type="button" class="btn btn-block btn-primary dropdown-toggle" data-toggle="dropdown">
+                    课程管理
+                </button>
+                <div class="dropdown-menu bg-light">
+                    <a class="dropdown-item" href="/index/teachers/addworkview?id=<?php echo $course['course_id']; ?>">
+                        新增作业
+                    </a>
+                    <a class="dropdown-item" href="/index/teachers/CourseImgView?id=<?php echo $course['course_id']; ?>">
+                        修改封面
+                    </a>
+                    <a class="dropdown-item" href="/index/teachers/course">
+                        我的课程
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
     <?php if(count($data) == 0): ?>
@@ -61,11 +72,21 @@
         </div>
     </div>
     <div class="col-sm-3 d-flex justify-content-center flex-column">
-        <input type="button" class="btn btn-block btn-success"  value="查看"
-               data-url="<?php echo url('index/Teachers/WorkDetails',['id'=>$data['Id'],'course_id'=>$course['course_id']]); ?>" onclick="OpenUrl(this)" />
-        <?php if($data['scheme'] == 0): ?>
-        <input type="button" class="btn btn-block btn-primary"  value="下载所有" />
-        <?php endif; ?>
+        <div class="dropdown">
+            <button type="button" class="btn btn-block btn-success dropdown-toggle" data-toggle="dropdown">
+                作业管理
+            </button>
+            <div class="dropdown-menu bg-light">
+                <a class="dropdown-item" href="<?php echo url('index/Teachers/WorkDetails',['id'=>$data['Id'],'course_id'=>$course['course_id']]); ?>">
+                    查看作业
+                </a>
+                <?php if($data['scheme'] == 0): ?>
+                <a class="dropdown-item" href="#">
+                    下载所有
+                </a>
+                <?php endif; ?>
+            </div>
+        </div>
     </div>
 </div>
     <div  class="collapse p-2 m-2 bg-dark text-white demo<?php echo $key; ?>" data-parent=".line-one">  <!-- 作业要求详细 -->
