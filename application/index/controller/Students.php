@@ -432,4 +432,54 @@ class Students extends Controller
         }
 
     }
+    public function DownloadFiles($work_id,$Id,$course_id)  //作业下载
+    {
+        /**
+         * 权限检测
+         */
+        $myData = $this->GetMyData();
+        $courseModel = new Course();
+        $workModel = new Workfiles();
+        $model = new Homework();
+        //判断课程是否属于该学生班级
+        if(!$courseModel->get(['Id'=>$course_id,'class_id'=>$myData['class_id']]))
+        {
+            $this->error('非法操作,多次行为,会导致封号');
+            return;
+        }
+        if(!$model->get(['Id'=>$work_id,"course_id"=>$course_id]))
+        {
+            $this->error('信息错误');
+            return;
+        }
+        $fileData =$workModel->get(['Id'=>$Id,"course_id"=>$course_id,'students_num'=>Session::get('user')]);
+        if(!$fileData)
+        {
+            $this->error('信息错误');
+            return;
+        }
+        $path = '.'.$fileData['message'];
+        $fileName = $fileData['students_num'].$fileData['students_name'].'.'.$fileData['file_type'];
+        if(!file_exists($path))
+        {
+            $this->error('文件已失效');
+            return;
+        }
+        $files = fopen($path,'r');
+        if(!$files)
+        {
+            $this->error('文件已失效');
+            return;
+        }
+        Header ( "Content-type: application/octet-stream" );
+        Header ( "Accept-Ranges: bytes" );
+        Header ( "Accept-Length: " . filesize ( $path ) );
+        Header ( "Content-Disposition: attachment; filename=" . urlencode($fileName));
+        //输出文件内容
+        //读取文件内容并直接输出到浏览器
+        ob_clean();
+        flush();
+        echo fread ( $files, filesize ( $path ) );
+        fclose ( $files );
+    }
 }

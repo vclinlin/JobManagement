@@ -91,7 +91,12 @@
                         {/if}
                     </td>
                     {if $datas.type == 0}
-                    <td><a href="{$datas.message}">下载</a></td>
+                    <td>
+                        <a href='{:url("/index/students/downloadfiles",
+                        ["work_id"=>$datas.work_id,"Id"=>$datas.Id,"course_id"=>$datas.course_id])}'>
+                            下载文件
+                        </a>
+                    </td>
                     {/if}
                 </tr>
             </tbody>

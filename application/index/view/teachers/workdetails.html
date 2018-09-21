@@ -79,7 +79,8 @@
                         </a>
                     </td>
                     {if $course_data.scheme == 0}
-                    <td>下载</td>
+                    <td><a href='{:url("/index/teachers/downloadfiles",
+                    ["work_id"=>$workData.work_id,"Id"=>$workData.Id,"course_id"=>$workData.course_id])}'>下载</a></td>
                     {/if}
                 </tr>
             {/volist}
