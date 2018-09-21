@@ -45,12 +45,12 @@
             {/if}
             {if $workData.readType == 0}
                 {if in_array($workData.file_type,['jpg','png','gif','bmp'])}
-                <div class="col-sm-12 text-center" style="overflow: hidden;">
-                    <img src="{$workData.message}" class="img-thumbnail img-fluid">
+                <div id="img-box" class="col-sm-12 text-center" style="max-height: 500px">
+                    <img src="{$workData.message}" style="max-height: 500px" class="img-thumbnail img-fluid">
                 </div>
                 {elseif in_array($workData.file_type,['mp4','vai','ogg']) }
-                <div class="col-sm-12 text-center">
-                    <video controls height="100%" width="100%" style="object-fit: fill" >
+                <div class="col-sm-12 text-center" style="max-height: 500px;">
+                    <video class="col-sm-12"  controls style="max-height: 500px;">
                         <source src="{$workData.message}"/>
                     </video>
                 </div>
@@ -83,6 +83,8 @@
     $(function () {
         var div = $(".markingBox");
         $("body").css('margin-bottom',div[0].clientHeight+30+'px');
+        var img_box =  $("#img-box");
+        console.log(img_box);
     })
 </script>
 {/block}

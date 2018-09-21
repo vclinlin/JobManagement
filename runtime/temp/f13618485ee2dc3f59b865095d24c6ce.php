@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537363974;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\students\workdetails.html";i:1537364176;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -161,7 +161,7 @@
                     layer.msg('文件过大(>300M),或网络故障,稍后再试', {icon: 0, time: 3000, shade: [0.5, '#000', true]});
                     return;
                 }
-            },error:function (data) {
+            },error:function () {
                 layer.msg('文件过大(>300M),或网络故障,稍后再试', {icon: 0, time: 3000, shade: [0.5, '#000', true]});
                 return;
             }

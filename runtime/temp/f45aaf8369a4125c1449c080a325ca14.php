@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537338994;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:103:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\public/../application/index\view\teachers\markingview.html";i:1537498920;s:79:"D:\Vc_PHP\Apache24\htdocs\2018\JobManagement\application\index\view\layout.html";i:1537327581;}*/ ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -61,12 +61,13 @@
             <?php if($workData['readType'] == 1): ?>
                 <textarea style="overflow-x: hidden;" wrap="virtual" class="form-control" id="filesData" readonly rows="15"><?php echo $workData['filesData']; ?></textarea>
             <?php endif; if($workData['readType'] == 0): if(in_array($workData['file_type'],['jpg','png','gif','bmp'])): ?>
-                <div class="col-sm-12 text-center">
-                    <img src="<?php echo $workData['message']; ?>" class="img-thumbnail">
+                <div id="img-box" class="col-sm-12 text-center" style="max-height: 500px">
+                    <img src="<?php echo $workData['message']; ?>" style="max-height: 500px" class="img-thumbnail img-fluid">
                 </div>
                 <?php elseif(in_array($workData['file_type'],['mp4','vai','ogg'])): ?>
-                <div class="col-sm-12 text-center">
-                    <video src="<?php echo $workData['message']; ?>">
+                <div class="col-sm-12 text-center" style="max-height: 500px;">
+                    <video class="col-sm-12"  controls style="max-height: 500px;">
+                        <source src="<?php echo $workData['message']; ?>"/>
                     </video>
                 </div>
                 <?php else: ?>
@@ -96,6 +97,8 @@
     $(function () {
         var div = $(".markingBox");
         $("body").css('margin-bottom',div[0].clientHeight+30+'px');
+        var img_box =  $("#img-box");
+        console.log(img_box);
     })
 </script>
 
